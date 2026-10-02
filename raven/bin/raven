@@ -1,0 +1,76 @@
+#!/usr/bin/env ruby
+
+require "json"
+require "net/http"
+require "optparse"
+require "uri"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "raven"
+
+options = {
+  rules: File.expand_path("../rules", __dir__),
+  input: "-",
+  argus_url: nil
+}
+
+option_parser = OptionParser.new do |parser|
+  parser.banner = "Usage: raven [options]"
+  parser.on("--rules PATH", "Rule file or directory (default: rules/)") { |value| options[:rules] = value }
+  parser.on("--input PATH", "JSONL input path; use - for stdin") { |value| options[:input] = value }
+  parser.on("--argus-url URL", "Read events from an ARGUS API base URL") { |value| options[:argus_url] = value }
+  parser.on("-h", "--help", "Show this help") do
+    puts parser
+    exit 0
+  end
+end
+
+begin
+  option_parser.parse!
+  raise OptionParser::InvalidArgument, "choose either --input or --argus-url" if options[:argus_url] && options[:input] != "-"
+
+  parser = Raven::Parser.new.parse(options[:rules])
+  engine = Raven::Engine.new(parser.rules)
+  processed = 0
+
+  if options[:argus_url]
+    base_uri = URI(options[:argus_url])
+    base_uri.path = "#{base_uri.path.sub(%r{/+$}, "")}/timeline"
+    base_uri.query = URI.encode_www_form(limit: 2000)
+    response = Net::HTTP.start(
+      base_uri.host,
+      base_uri.port,
+      use_ssl: base_uri.scheme == "https",
+      open_timeout: 3,
+      read_timeout: 10
+    ) { |http| http.get(base_uri) }
+    raise IOError, "ARGUS returned HTTP #{response.code}" unless response.is_a?(Net::HTTPSuccess)
+
+    records = JSON.parse(response.body).fetch("timeline").select { |item| item["kind"] == "event" }
+    records.each do |record|
+      processed += 1
+      engine.process(record).each { |alert| puts JSON.generate(alert.to_h) }
+    end
+  else
+    input = options[:input] == "-" ? $stdin : File.open(options[:input], "r", encoding: "utf-8")
+    input.each_line.with_index(1) do |line, line_number|
+      next if line.strip.empty?
+
+      begin
+        event = JSON.parse(line)
+        raise JSON::ParserError, "record must be an object" unless event.is_a?(Hash)
+        processed += 1
+        engine.process(event).each { |alert| puts JSON.generate(alert.to_h) }
+      rescue JSON::ParserError => error
+        warn "#{options[:input]}:#{line_number}: #{error.message}"
+      end
+    end
+    input.close unless input.equal?($stdin)
+  end
+
+  warn "processed=#{processed} alerts=#{engine.alerts.length}"
+rescue OptionParser::ParseError, ArgumentError, IOError, SystemCallError,
+       SocketError, Timeout::Error, URI::Error, Net::HTTPError,
+       JSON::ParserError, KeyError => error
+  warn "raven: #{error.message}"
+  exit 1
+end

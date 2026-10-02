@@ -1,0 +1,1 @@
+"""Input adapters for local event and network logs."""

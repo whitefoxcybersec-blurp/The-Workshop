@@ -1,0 +1,11 @@
+database: argus.db
+rules: rules/default.yaml
+
+api:
+  host: 127.0.0.1
+  port: 8765
+
+correlation:
+  window_seconds: 30
+  failure_threshold: 15
+  risk_window_seconds: 300

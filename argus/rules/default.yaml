@@ -1,0 +1,8 @@
+rules:
+  - name: privileged_successful_authentication
+    event: authentication
+    conditions:
+      user: root
+      result: success
+    severity: high
+    score: 30

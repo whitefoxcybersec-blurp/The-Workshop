@@ -1,0 +1,17 @@
+{"timestamp":"2026-10-02T13:36:00Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:01Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:02Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:03Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:04Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:05Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:06Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:07Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:08Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:09Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:10Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:11Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:12Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:13Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:14Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"failed"}
+{"timestamp":"2026-10-02T13:36:15Z","source":"linux","event":"authentication","src_ip":"192.168.1.50","user":"root","result":"success"}
+{"timestamp":"2026-10-02T13:36:16Z","source":"network","event":"network_connection","src_ip":"192.168.1.50","destination_ip":"10.0.0.8","service":"ssh","result":"SF"}

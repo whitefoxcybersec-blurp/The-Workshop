@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 3rem;
+  color: #17231f;
+  background: #f3f5ef;
+  font: 1rem/1.6 sans-serif;
+}
+
+main {
+  max-width: 48rem;
+  margin: 10vh auto;
+  padding: 2rem;
+  border-left: 4px solid #32715d;
+  background: #fff;
+}
+
+h1 {
+  margin-top: 0;
+  color: #235340;
+}

@@ -1,0 +1,1 @@
+"""SQLite-backed event and alert storage."""
