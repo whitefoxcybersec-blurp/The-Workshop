@@ -1,0 +1,399 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>1</TRNUID>
+      <STATUS>
+        <CODE>0</CODE>
+        <SEVERITY>INFO</SEVERITY>
+      </STATUS>
+      <STMTRS>
+        <CURDEF>BRL</CURDEF>
+        <BANKACCTFROM>
+          <BANKID>0001</BANKID>
+          <ACCTID>6858133-2</ACCTID>
+          <ACCTTYPE>CHECKING</ACCTTYPE>
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2397.83</TRNAMT>
+            <FITID>20260710_0</FITID>
+            <MEMO>Pgto QR Code Pix                   EAD SOLUCOES INT…          65.053.848/0001-24</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2000.00</TRNAMT>
+            <FITID>20260710_1</FITID>
+            <MEMO>Transf Pix enviada                 CERTIFIKSE - CERTIF…       54.902.348/0001-01</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-500.00</TRNAMT>
+            <FITID>20260710_2</FITID>
+            <MEMO>Transf Pix enviada                 SANDRA CRISTINA …          185.147.488-90</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2976.25</TRNAMT>
+            <FITID>20260710_3</FITID>
+            <MEMO>Transf Pix enviada                 TIAGO PEREIRA DA …         341.071.318-23</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2404.05</TRNAMT>
+            <FITID>20260710_4</FITID>
+            <MEMO>Transf Pix enviada                 JANETE MARQUES …           005.627.273-10</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2239.05</TRNAMT>
+            <FITID>20260710_5</FITID>
+            <MEMO>Transf Pix enviada                 Luiz Henrique Antun…       412.299.658-90</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2381.05</TRNAMT>
+            <FITID>20260710_6</FITID>
+            <MEMO>Transf Pix enviada                 VICTOR ANGELO M…           545.895.228-61</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-1370.62</TRNAMT>
+            <FITID>20260710_7</FITID>
+            <MEMO>Pgto QR Code Pix                   EAD SOLUCOES INT…          65.053.848/0001-24</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260708</DTPOSTED>
+            <TRNAMT>16268.85</TRNAMT>
+            <FITID>20260708_8</FITID>
+            <MEMO>Transferência recebida             Mk Spe14 Vila Re Em…       48.326.790/0001-26</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260703</DTPOSTED>
+            <TRNAMT>-4.14</TRNAMT>
+            <FITID>20260703_9</FITID>
+            <MEMO>Transf Pix enviada                 ABMAEL DE SOUZA …          281.082.068-63</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260630</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260630_10</FITID>
+            <MEMO>Transf Pix enviada                 ANTONIO MARCOS…            282.589.218-19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260629</DTPOSTED>
+            <TRNAMT>-10.00</TRNAMT>
+            <FITID>20260629_11</FITID>
+            <MEMO>Transf Pix enviada                 ABMAEL DE SOUZA …          281.082.068-63</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260624</DTPOSTED>
+            <TRNAMT>61.00</TRNAMT>
+            <FITID>20260624_12</FITID>
+            <MEMO>Transf Pix recebida                EAD PEDROZA SERV…          10.647.193/0001-20</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260624</DTPOSTED>
+            <TRNAMT>-70.00</TRNAMT>
+            <FITID>20260624_13</FITID>
+            <MEMO>Transf Pix enviada                 MARIA VERONICA P…          337.054.958-10</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260624</DTPOSTED>
+            <TRNAMT>-10.00</TRNAMT>
+            <FITID>20260624_14</FITID>
+            <MEMO>Pgto QR Code Pix                   ESFIHARIA JANDIRA…         04.532.120/0001-90</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260623</DTPOSTED>
+            <TRNAMT>-5.50</TRNAMT>
+            <FITID>20260623_15</FITID>
+            <MEMO>Pgto QR Code Pix                   AUTO POSTO POLIS…          55.001.879/0001-88</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260622</DTPOSTED>
+            <TRNAMT>-48.36</TRNAMT>
+            <FITID>20260622_16</FITID>
+            <MEMO>Pgto QR Code Pix                   PIX Marketplace            10.573.521/0001-91</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260622</DTPOSTED>
+            <TRNAMT>137.00</TRNAMT>
+            <FITID>20260622_17</FITID>
+            <MEMO>Transf Pix recebida                Abmael de Souza Pe…        281.082.068-63</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260620</DTPOSTED>
+            <TRNAMT>50.00</TRNAMT>
+            <FITID>20260620_18</FITID>
+            <MEMO>Transf Pix recebida                ABMAEL DE SOUZA …          281.082.068-63</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>-7151.55</TRNAMT>
+            <FITID>20260611_19</FITID>
+            <MEMO>Pgto QR Code Pix                   EAD SOLUCOES INT…          65.053.848/0001-24</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>-2667.00</TRNAMT>
+            <FITID>20260611_20</FITID>
+            <MEMO>Transf Pix enviada                 TIAGO PEREIRA DA …         341.071.318-23</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>-2167.00</TRNAMT>
+            <FITID>20260611_21</FITID>
+            <MEMO>Transf Pix enviada                 Luiz Henrique Antun…       412.299.658-90</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>-1902.25</TRNAMT>
+            <FITID>20260611_22</FITID>
+            <MEMO>Transf Pix enviada                 JANETE MARQUES …           005.627.273-10</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>-2381.05</TRNAMT>
+            <FITID>20260611_23</FITID>
+            <MEMO>Transf Pix enviada                 VICTOR ANGELO M…           545.895.228-61</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>16268.85</TRNAMT>
+            <FITID>20260611_24</FITID>
+            <MEMO>Transferência recebida             Mk Spe14 Vila Re Em…       48.326.790/0001-26</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-6000.00</TRNAMT>
+            <FITID>20260610_25</FITID>
+            <MEMO>Pgto QR Code Pix                   EAD SOLUCOES INT…          65.053.848/0001-24</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>6000.00</TRNAMT>
+            <FITID>20260610_26</FITID>
+            <MEMO>Transf Pix recebida                ABMAEL DE SOUZA …          281.082.068-63</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260515</DTPOSTED>
+            <TRNAMT>-15768.85</TRNAMT>
+            <FITID>20260515_27</FITID>
+            <MEMO>Transf Pix enviada                 ABMAEL DE SOUZA …          281.082.068-63</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260515</DTPOSTED>
+            <TRNAMT>-500.00</TRNAMT>
+            <FITID>20260515_28</FITID>
+            <MEMO>Transf Pix enviada                 SANDRA CRISTINA …          185.147.488-90</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260514</DTPOSTED>
+            <TRNAMT>16268.85</TRNAMT>
+            <FITID>20260514_29</FITID>
+            <MEMO>Transferência recebida             Mk Spe14 Vila Re Em…       48.326.790/0001-26</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-5030.76</TRNAMT>
+            <FITID>20260511_30</FITID>
+            <MEMO>Transf Pix enviada                 EAD SOLUCOES INT…          65.053.848/0001-24</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>5000.00</TRNAMT>
+            <FITID>20260511_31</FITID>
+            <MEMO>Transf Pix recebida                EAD SEGURANCA E …          26.291.239/0001-51</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-1400.00</TRNAMT>
+            <FITID>20260511_32</FITID>
+            <MEMO>Transf Pix enviada                 EAD PEDROZA SERV…          10.647.193/0001-20</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-1737.73</TRNAMT>
+            <FITID>20260511_33</FITID>
+            <MEMO>Pgto QR Code Pix                   NU PAGAMENTOS S/A          18.236.120/0001-58</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260510</DTPOSTED>
+            <TRNAMT>-23.25</TRNAMT>
+            <FITID>20260510_34</FITID>
+            <MEMO>Pgto QR Code Pix                   SUPERMERCADO MI…           07.640.211/0001-38</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260510</DTPOSTED>
+            <TRNAMT>-50.00</TRNAMT>
+            <FITID>20260510_35</FITID>
+            <MEMO>Pgto QR Code Pix                   Gilmaria Lima Santos       325.701.148-20</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-458.26</TRNAMT>
+            <FITID>20260509_36</FITID>
+            <MEMO>Pgto QR Code Pix                   SUPERMERCADO PA…           55.806.741/0001-56</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-190.00</TRNAMT>
+            <FITID>20260509_37</FITID>
+            <MEMO>Transf Pix enviada                 ABMAEL DE SOUZA …          281.082.068-63</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-110.00</TRNAMT>
+            <FITID>20260509_38</FITID>
+            <MEMO>Pgto QR Code Pix                   SANDRA ELIAS DOS…          173.092.028-48</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>4000.00</TRNAMT>
+            <FITID>20260509_39</FITID>
+            <MEMO>Transf Pix recebida                EAD SOLUCOES INT…          65.053.848/0001-24</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260424</DTPOSTED>
+            <TRNAMT>-10720.77</TRNAMT>
+            <FITID>20260424_40</FITID>
+            <MEMO>Transf Pix enviada                 ABMAEL DE SOUZA …          281.082.068-63</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260424</DTPOSTED>
+            <TRNAMT>-462.00</TRNAMT>
+            <FITID>20260424_41</FITID>
+            <MEMO>Pgto QR Code Pix                   DOM DIGITAL LTDA           52.711.237/0001-84</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260424</DTPOSTED>
+            <TRNAMT>-269.00</TRNAMT>
+            <FITID>20260424_42</FITID>
+            <MEMO>Pgto QR Code Pix                   DOM DIGITAL LTDA           52.711.237/0001-84</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260423</DTPOSTED>
+            <TRNAMT>-500.00</TRNAMT>
+            <FITID>20260423_43</FITID>
+            <MEMO>Transf Pix enviada                 SANDRA CRISTINA …          185.147.488-90</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260423</DTPOSTED>
+            <TRNAMT>-312.50</TRNAMT>
+            <FITID>20260423_44</FITID>
+            <MEMO>Pgto QR Code Pix                   SUPERMERCADO PA…           55.806.741/0001-56</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260423</DTPOSTED>
+            <TRNAMT>-468.69</TRNAMT>
+            <FITID>20260423_45</FITID>
+            <MEMO>Boleto pago                        Thiago Augusto Sierr…      338.288.368-60</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260423</DTPOSTED>
+            <TRNAMT>-1959.66</TRNAMT>
+            <FITID>20260423_46</FITID>
+            <MEMO>Transf Pix enviada                 CERTIFIKSE - CERTIF…       54.902.348/0001-01</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260423</DTPOSTED>
+            <TRNAMT>-1615.23</TRNAMT>
+            <FITID>20260423_47</FITID>
+            <MEMO>Transf Pix enviada                 CERTIFIKSE - CERTIF…       54.902.348/0001-01</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260423</DTPOSTED>
+            <TRNAMT>16307.85</TRNAMT>
+            <FITID>20260423_48</FITID>
+            <MEMO>Transf Pix recebida                MK SPE14 VILA RE E…        48.326.790/0001-26</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260417</DTPOSTED>
+            <TRNAMT>-58.00</TRNAMT>
+            <FITID>20260417_49</FITID>
+            <MEMO>Transf Pix enviada                 ABMAEL DE SOUZA …          281.082.068-63</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260414</DTPOSTED>
+            <TRNAMT>-42.00</TRNAMT>
+            <FITID>20260414_50</FITID>
+            <MEMO>Pgto QR Code Pix                   51.475.817 JACILEN…        51.475.817/0001-57</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260414</DTPOSTED>
+            <TRNAMT>100.00</TRNAMT>
+            <FITID>20260414_51</FITID>
+            <MEMO>Transferência recebida             Abmael De Souza Pe…        281.082.068-63</MEMO>
+          </STMTTRN>
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0.00</BALAMT>
+          <DTASOF>{data_final or datetime.now().strftime('%Y%m%d')}</DTASOF>
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>

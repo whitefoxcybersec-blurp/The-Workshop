@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extrato>
+  <banco>DESCONHECIDO</banco>
+  <agencia>0001</agencia>
+  <conta>6858133-2</conta>
+  <data_inicio>None</data_inicio>
+  <data_fim>None</data_fim>
+  <resumo>
+    <total_creditos>51001.90</total_creditos>
+    <total_debitos>0</total_debitos>
+    <saldo_liquido>51001.90</saldo_liquido>
+  </resumo>
+  <transacoes>
+    <transacao>
+      <data>20260710</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>0.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260708</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>16268.85</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260703</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>0.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260630</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>4.14</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260629</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>104.14</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260624</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>114.14</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260623</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>133.14</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260622</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>138.64</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260620</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>50.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260611</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>0.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260610</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>0.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260515</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>0.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260514</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>16268.85</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260511</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>0.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260510</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>3168.49</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260509</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>3241.74</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260424</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>0.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260423</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>11451.77</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260417</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>0.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+    <transacao>
+      <data>20260414</data>
+      <descricao>Saldo do dia</descricao>
+      <valor>58.00</valor>
+      <tipo>CREDIT</tipo>
+    </transacao>
+  </transacoes>
+</extrato>

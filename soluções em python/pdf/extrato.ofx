@@ -1,0 +1,175 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>1</TRNUID>
+      <STATUS>
+        <CODE>0</CODE>
+        <SEVERITY>INFO</SEVERITY>
+      </STATUS>
+      <STMTRS>
+        <CURDEF>BRL</CURDEF>
+        <BANKACCTFROM>
+          <BANKID>{agencia}</BANKID>
+          <ACCTID>{conta}</ACCTID>
+          <ACCTTYPE>CHECKING</ACCTTYPE>
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>0.00</TRNAMT>
+            <FITID>20260710_0</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260708</DTPOSTED>
+            <TRNAMT>16268.85</TRNAMT>
+            <FITID>20260708_1</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260703</DTPOSTED>
+            <TRNAMT>0.00</TRNAMT>
+            <FITID>20260703_2</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260630</DTPOSTED>
+            <TRNAMT>4.14</TRNAMT>
+            <FITID>20260630_3</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260629</DTPOSTED>
+            <TRNAMT>104.14</TRNAMT>
+            <FITID>20260629_4</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260624</DTPOSTED>
+            <TRNAMT>114.14</TRNAMT>
+            <FITID>20260624_5</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260623</DTPOSTED>
+            <TRNAMT>133.14</TRNAMT>
+            <FITID>20260623_6</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260622</DTPOSTED>
+            <TRNAMT>138.64</TRNAMT>
+            <FITID>20260622_7</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260620</DTPOSTED>
+            <TRNAMT>50.00</TRNAMT>
+            <FITID>20260620_8</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>0.00</TRNAMT>
+            <FITID>20260611_9</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>0.00</TRNAMT>
+            <FITID>20260610_10</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260515</DTPOSTED>
+            <TRNAMT>0.00</TRNAMT>
+            <FITID>20260515_11</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260514</DTPOSTED>
+            <TRNAMT>16268.85</TRNAMT>
+            <FITID>20260514_12</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>0.00</TRNAMT>
+            <FITID>20260511_13</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260510</DTPOSTED>
+            <TRNAMT>3168.49</TRNAMT>
+            <FITID>20260510_14</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>3241.74</TRNAMT>
+            <FITID>20260509_15</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260424</DTPOSTED>
+            <TRNAMT>0.00</TRNAMT>
+            <FITID>20260424_16</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260423</DTPOSTED>
+            <TRNAMT>11451.77</TRNAMT>
+            <FITID>20260423_17</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260417</DTPOSTED>
+            <TRNAMT>0.00</TRNAMT>
+            <FITID>20260417_18</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260414</DTPOSTED>
+            <TRNAMT>58.00</TRNAMT>
+            <FITID>20260414_19</FITID>
+            <MEMO>Saldo do dia</MEMO>
+          </STMTTRN>
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>51001.90</BALAMT>
+          <DTASOF>20260830</DTASOF>
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>

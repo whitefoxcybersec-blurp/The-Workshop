@@ -1,0 +1,133 @@
+{
+  "banco": "DESCONHECIDO",
+  "agencia": "0001",
+  "conta": "6858133-2",
+  "data_inicio": null,
+  "data_fim": null,
+  "total_transacoes": 20,
+  "total_creditos": "51001.90",
+  "total_debitos": "0",
+  "saldo_liquido": "51001.90",
+  "transacoes": [
+    {
+      "data": "20260710",
+      "descricao": "Saldo do dia",
+      "valor": "0.00",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260708",
+      "descricao": "Saldo do dia",
+      "valor": "16268.85",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260703",
+      "descricao": "Saldo do dia",
+      "valor": "0.00",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260630",
+      "descricao": "Saldo do dia",
+      "valor": "4.14",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260629",
+      "descricao": "Saldo do dia",
+      "valor": "104.14",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260624",
+      "descricao": "Saldo do dia",
+      "valor": "114.14",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260623",
+      "descricao": "Saldo do dia",
+      "valor": "133.14",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260622",
+      "descricao": "Saldo do dia",
+      "valor": "138.64",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260620",
+      "descricao": "Saldo do dia",
+      "valor": "50.00",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260611",
+      "descricao": "Saldo do dia",
+      "valor": "0.00",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260610",
+      "descricao": "Saldo do dia",
+      "valor": "0.00",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260515",
+      "descricao": "Saldo do dia",
+      "valor": "0.00",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260514",
+      "descricao": "Saldo do dia",
+      "valor": "16268.85",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260511",
+      "descricao": "Saldo do dia",
+      "valor": "0.00",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260510",
+      "descricao": "Saldo do dia",
+      "valor": "3168.49",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260509",
+      "descricao": "Saldo do dia",
+      "valor": "3241.74",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260424",
+      "descricao": "Saldo do dia",
+      "valor": "0.00",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260423",
+      "descricao": "Saldo do dia",
+      "valor": "11451.77",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260417",
+      "descricao": "Saldo do dia",
+      "valor": "0.00",
+      "tipo": "CREDIT"
+    },
+    {
+      "data": "20260414",
+      "descricao": "Saldo do dia",
+      "valor": "58.00",
+      "tipo": "CREDIT"
+    }
+  ]
+}

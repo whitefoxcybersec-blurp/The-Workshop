@@ -1,0 +1,2408 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>1</TRNUID>
+      <STATUS>
+        <CODE>0</CODE>
+        <SEVERITY>INFO</SEVERITY>
+      </STATUS>
+      <STMTRS>
+        <CURDEF>BRL</CURDEF>
+        <BANKACCTFROM>
+          <BANKID>0001</BANKID>
+          <ACCTID>6858133-2</ACCTID>
+          <ACCTTYPE>CHECKING</ACCTTYPE>
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260731</DTPOSTED>
+            <TRNAMT>-95.00</TRNAMT>
+            <FITID>20260731_0</FITID>
+            <MEMO>Pix enviado Saída SPIX MEDICINA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260730</DTPOSTED>
+            <TRNAMT>-227.62</TRNAMT>
+            <FITID>20260730_1</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260730</DTPOSTED>
+            <TRNAMT>-22.50</TRNAMT>
+            <FITID>20260730_2</FITID>
+            <MEMO>Pix enviado Saída PIX Marketplace</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260730</DTPOSTED>
+            <TRNAMT>-60.00</TRNAMT>
+            <FITID>20260730_3</FITID>
+            <MEMO>Pix enviado Saída INTERNEXOS OCUPACIONAL LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260729</DTPOSTED>
+            <TRNAMT>-1389.88</TRNAMT>
+            <FITID>20260729_4</FITID>
+            <MEMO>Pix enviado Saída PIX Marketplace</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260728</DTPOSTED>
+            <TRNAMT>-154.39</TRNAMT>
+            <FITID>20260728_5</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260727</DTPOSTED>
+            <TRNAMT>-60.00</TRNAMT>
+            <FITID>20260727_6</FITID>
+            <MEMO>Pix enviado Saída AGIMED SERVICOS MEDICOS OCUPACIONAL LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260726</DTPOSTED>
+            <TRNAMT>-150.00</TRNAMT>
+            <FITID>20260726_7</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260725</DTPOSTED>
+            <TRNAMT>-1230.00</TRNAMT>
+            <FITID>20260725_8</FITID>
+            <MEMO>Pix enviado Saída JC UNIFORMES E CONFECCOES MIRANDA LTDA PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 1 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260724</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260724_9</FITID>
+            <MEMO>Pix enviado Saída ADMINISTRADORA GERAL DE ESTACIONAMENTOS S A</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260724</DTPOSTED>
+            <TRNAMT>-61.00</TRNAMT>
+            <FITID>20260724_10</FITID>
+            <MEMO>Pix enviado Saída Zig Tecnologia S.A.</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260724</DTPOSTED>
+            <TRNAMT>-50.00</TRNAMT>
+            <FITID>20260724_11</FITID>
+            <MEMO>Pix enviado Saída LEANDRO DENIS DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260724</DTPOSTED>
+            <TRNAMT>-157.00</TRNAMT>
+            <FITID>20260724_12</FITID>
+            <MEMO>Pix enviado Saída JOAO VALENTIM DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260724</DTPOSTED>
+            <TRNAMT>-251.60</TRNAMT>
+            <FITID>20260724_13</FITID>
+            <MEMO>Pix enviado Saída AUTO POSTO CENTRAL DOS COMBUSTIVEIS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260723</DTPOSTED>
+            <TRNAMT>-272.00</TRNAMT>
+            <FITID>20260723_14</FITID>
+            <MEMO>Pix enviado Saída MARSEG SEGURANCA E MEDICINA DO TRABALHO LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260723</DTPOSTED>
+            <TRNAMT>-1800.00</TRNAMT>
+            <FITID>20260723_15</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260723</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260723_16</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260723</DTPOSTED>
+            <TRNAMT>-74.56</TRNAMT>
+            <FITID>20260723_17</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO MIRALHA CAMARGO LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260723</DTPOSTED>
+            <TRNAMT>-166.32</TRNAMT>
+            <FITID>20260723_18</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260723</DTPOSTED>
+            <TRNAMT>-200.00</TRNAMT>
+            <FITID>20260723_19</FITID>
+            <MEMO>Pix enviado Saída Abmael de Souza Pedroza</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260722</DTPOSTED>
+            <TRNAMT>-1440.00</TRNAMT>
+            <FITID>20260722_20</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260722</DTPOSTED>
+            <TRNAMT>-1000.00</TRNAMT>
+            <FITID>20260722_21</FITID>
+            <MEMO>Pix enviado Saída CERTIFIKSE - CERTIFICADOS DIGITAIS - LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260722</DTPOSTED>
+            <TRNAMT>-3968.43</TRNAMT>
+            <FITID>20260722_22</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260722</DTPOSTED>
+            <TRNAMT>10270.46</TRNAMT>
+            <FITID>20260722_23</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260722</DTPOSTED>
+            <TRNAMT>4714.84</TRNAMT>
+            <FITID>20260722_24</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260721</DTPOSTED>
+            <TRNAMT>-50.00</TRNAMT>
+            <FITID>20260721_25</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260721</DTPOSTED>
+            <TRNAMT>-119.13</TRNAMT>
+            <FITID>20260721_26</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260717</DTPOSTED>
+            <TRNAMT>-132.58</TRNAMT>
+            <FITID>20260717_27</FITID>
+            <MEMO>Pix enviado Saída VELOX FIBER TELECOMUNICACOES LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260717</DTPOSTED>
+            <TRNAMT>-10.00</TRNAMT>
+            <FITID>20260717_28</FITID>
+            <MEMO>Pix enviado Saída ESFIHARIA JANDIRA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260716</DTPOSTED>
+            <TRNAMT>-40.00</TRNAMT>
+            <FITID>20260716_29</FITID>
+            <MEMO>Pix enviado Saída LUIS ROBERTO DE MATOS RACOES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260716</DTPOSTED>
+            <TRNAMT>-20.00</TRNAMT>
+            <FITID>20260716_30</FITID>
+            <MEMO>Pix enviado Saída JONATHAN GOMES DE FREITAS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260716</DTPOSTED>
+            <TRNAMT>-190.00</TRNAMT>
+            <FITID>20260716_31</FITID>
+            <MEMO>Pix enviado Saída JONATHAN GOMES DE FREITAS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260715</DTPOSTED>
+            <TRNAMT>-83.52</TRNAMT>
+            <FITID>20260715_32</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260714</DTPOSTED>
+            <TRNAMT>-24.00</TRNAMT>
+            <FITID>20260714_33</FITID>
+            <MEMO>Pix enviado Saída Geane Sobreira de Oliveira Rodrigues</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260713</DTPOSTED>
+            <TRNAMT>-2000.00</TRNAMT>
+            <FITID>20260713_34</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260712</DTPOSTED>
+            <TRNAMT>-350.00</TRNAMT>
+            <FITID>20260712_35</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-20.00</TRNAMT>
+            <FITID>20260711_36</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-35.00</TRNAMT>
+            <FITID>20260711_37</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-160.00</TRNAMT>
+            <FITID>20260711_38</FITID>
+            <MEMO>Pix enviado Saída Antonio Carlos de Jesus Costa</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-55.00</TRNAMT>
+            <FITID>20260711_39</FITID>
+            <MEMO>Pix enviado Saída FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-2590.00</TRNAMT>
+            <FITID>20260711_40</FITID>
+            <MEMO>Pix enviado Saída 11 596 824 ROQUE ARCANJO DOS SANTOS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-2400.00</TRNAMT>
+            <FITID>20260711_41</FITID>
+            <MEMO>Pix enviado Saída Antonio Carlos de Jesus Costa</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-2110.00</TRNAMT>
+            <FITID>20260711_42</FITID>
+            <MEMO>Pix enviado Saída Eduardo Puzinati da Silva</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-1440.00</TRNAMT>
+            <FITID>20260711_43</FITID>
+            <MEMO>Pix enviado Saída GILBERTO ANTONIO COPATI</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-2080.00</TRNAMT>
+            <FITID>20260711_44</FITID>
+            <MEMO>Pix enviado Saída Edson Sales dos Santos PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 3 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-1320.00</TRNAMT>
+            <FITID>20260711_45</FITID>
+            <MEMO>Pix enviado Saída Gustavo de Oliveira Santana</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260711</DTPOSTED>
+            <TRNAMT>-1870.00</TRNAMT>
+            <FITID>20260711_46</FITID>
+            <MEMO>Pix enviado Saída REGINALDO APARECIDO GIMENES MUNHOZ</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2550.00</TRNAMT>
+            <FITID>20260710_47</FITID>
+            <MEMO>Pix enviado Saída Samuel Lelles Fernandes</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2080.00</TRNAMT>
+            <FITID>20260710_48</FITID>
+            <MEMO>Pix enviado Saída LEANDRO DENIS DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>16000.00</TRNAMT>
+            <FITID>20260710_49</FITID>
+            <MEMO>Pix recebido Entrada WESLEY WELLINGTON MENEGHINI</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2960.41</TRNAMT>
+            <FITID>20260710_50</FITID>
+            <MEMO>Pix enviado Saída LETICIA DA SILVA LIMA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2151.81</TRNAMT>
+            <FITID>20260710_51</FITID>
+            <MEMO>Pix enviado Saída ATHINA MENDONCA BATISTA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-2710.05</TRNAMT>
+            <FITID>20260710_52</FITID>
+            <MEMO>Pix enviado Saída ANTONIO MARCOS FERNANDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>4256.77</TRNAMT>
+            <FITID>20260710_53</FITID>
+            <MEMO>Pix recebido Entrada EAD SOLUCOES INTEGRADAS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>6925.88</TRNAMT>
+            <FITID>20260710_54</FITID>
+            <MEMO>Pix recebido Entrada EAD SEGURANCA E TECNOLOGIA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>21.02</TRNAMT>
+            <FITID>20260710_55</FITID>
+            <MEMO>Pix recebido Entrada EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>2397.83</TRNAMT>
+            <FITID>20260710_56</FITID>
+            <MEMO>Pix recebido Entrada EAD Solucoes Integradas Ltda</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260710</DTPOSTED>
+            <TRNAMT>-3077.98</TRNAMT>
+            <FITID>20260710_57</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260709</DTPOSTED>
+            <TRNAMT>-50.00</TRNAMT>
+            <FITID>20260709_58</FITID>
+            <MEMO>Pix enviado Saída Eduardo Puzinati da Silva</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260709</DTPOSTED>
+            <TRNAMT>-531.00</TRNAMT>
+            <FITID>20260709_59</FITID>
+            <MEMO>Pix enviado Saída Rodrigo Vieira de Abreu de Sousa</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260709</DTPOSTED>
+            <TRNAMT>-1386.15</TRNAMT>
+            <FITID>20260709_60</FITID>
+            <MEMO>Pix enviado Saída EAD SOLUCOES INTEGRADAS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260709</DTPOSTED>
+            <TRNAMT>-5128.12</TRNAMT>
+            <FITID>20260709_61</FITID>
+            <MEMO>Pix enviado Saída MARIA JOSE DO NASCIMENTO FREITAS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260709</DTPOSTED>
+            <TRNAMT>-2862.05</TRNAMT>
+            <FITID>20260709_62</FITID>
+            <MEMO>Pix enviado Saída Edson Sales dos Santos</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260708</DTPOSTED>
+            <TRNAMT>-2636.65</TRNAMT>
+            <FITID>20260708_63</FITID>
+            <MEMO>Pix enviado Saída JAIR JANUARIO DE ANDRADE</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260708</DTPOSTED>
+            <TRNAMT>-500.00</TRNAMT>
+            <FITID>20260708_64</FITID>
+            <MEMO>Pix enviado Saída SANDRA CRISTINA DE MORAES PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 4 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260708</DTPOSTED>
+            <TRNAMT>-899.34</TRNAMT>
+            <FITID>20260708_65</FITID>
+            <MEMO>Pix enviado Saída Roberto Aparecido Gimenes Munhoz</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260708</DTPOSTED>
+            <TRNAMT>-1440.00</TRNAMT>
+            <FITID>20260708_66</FITID>
+            <MEMO>Pix enviado Saída EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260706</DTPOSTED>
+            <TRNAMT>-140.00</TRNAMT>
+            <FITID>20260706_67</FITID>
+            <MEMO>Pix enviado Saída THIAGO CARNEIRO GUIMARAES DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260706</DTPOSTED>
+            <TRNAMT>18651.29</TRNAMT>
+            <FITID>20260706_68</FITID>
+            <MEMO>Pix recebido Entrada MITZ MATRIZ EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260705</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260705_69</FITID>
+            <MEMO>Pix enviado Saída THIAGO CARNEIRO GUIMARAES DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260705</DTPOSTED>
+            <TRNAMT>100.00</TRNAMT>
+            <FITID>20260705_70</FITID>
+            <MEMO>Pix recebido Entrada WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260703</DTPOSTED>
+            <TRNAMT>-13.83</TRNAMT>
+            <FITID>20260703_71</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260702</DTPOSTED>
+            <TRNAMT>-88.01</TRNAMT>
+            <FITID>20260702_72</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260701</DTPOSTED>
+            <TRNAMT>-35.00</TRNAMT>
+            <FITID>20260701_73</FITID>
+            <MEMO>Pix enviado Saída BRENO LICO LOBO</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260701</DTPOSTED>
+            <TRNAMT>-5.00</TRNAMT>
+            <FITID>20260701_74</FITID>
+            <MEMO>Pix enviado Saída DROGAJAN LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260701</DTPOSTED>
+            <TRNAMT>-10.00</TRNAMT>
+            <FITID>20260701_75</FITID>
+            <MEMO>Pix enviado Saída ESFIHARIA JANDIRA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260630</DTPOSTED>
+            <TRNAMT>-130.00</TRNAMT>
+            <FITID>20260630_76</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260630</DTPOSTED>
+            <TRNAMT>-1830.10</TRNAMT>
+            <FITID>20260630_77</FITID>
+            <MEMO>Pix enviado Saída EDUARDO PUZINATI DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260630</DTPOSTED>
+            <TRNAMT>1000.00</TRNAMT>
+            <FITID>20260630_78</FITID>
+            <MEMO>Pix recebido Entrada ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260630</DTPOSTED>
+            <TRNAMT>711.89</TRNAMT>
+            <FITID>20260630_79</FITID>
+            <MEMO>Pix recebido Entrada ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260630</DTPOSTED>
+            <TRNAMT>400.00</TRNAMT>
+            <FITID>20260630_80</FITID>
+            <MEMO>Pix recebido Entrada ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260622</DTPOSTED>
+            <TRNAMT>-162.62</TRNAMT>
+            <FITID>20260622_81</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 5 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260622</DTPOSTED>
+            <TRNAMT>-35.00</TRNAMT>
+            <FITID>20260622_82</FITID>
+            <MEMO>Pix enviado Saída Oziel de Jesus Domingos</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260622</DTPOSTED>
+            <TRNAMT>-146.33</TRNAMT>
+            <FITID>20260622_83</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260622</DTPOSTED>
+            <TRNAMT>-56.00</TRNAMT>
+            <FITID>20260622_84</FITID>
+            <MEMO>Pix enviado Saída JOAO VALENTIM DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260622</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260622_85</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260620</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260620_86</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260620</DTPOSTED>
+            <TRNAMT>-71.06</TRNAMT>
+            <FITID>20260620_87</FITID>
+            <MEMO>Pix enviado Saída Samuel Victor Melo Pedroza</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260619</DTPOSTED>
+            <TRNAMT>-50.00</TRNAMT>
+            <FITID>20260619_88</FITID>
+            <MEMO>Pix enviado Saída EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260619</DTPOSTED>
+            <TRNAMT>-100.12</TRNAMT>
+            <FITID>20260619_89</FITID>
+            <MEMO>Pix enviado Saída SEM PARAR INSTITUICAO DE PAGAMENTO LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260619</DTPOSTED>
+            <TRNAMT>-10.00</TRNAMT>
+            <FITID>20260619_90</FITID>
+            <MEMO>Pix enviado Saída ELIZAMA ZACARIAS DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260619</DTPOSTED>
+            <TRNAMT>-27.17</TRNAMT>
+            <FITID>20260619_91</FITID>
+            <MEMO>Pix enviado Saída RAIA DROGASIL S A</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260619</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260619_92</FITID>
+            <MEMO>Pix enviado Saída THIAGO CARNEIRO GUIMARAES DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260619</DTPOSTED>
+            <TRNAMT>-1571.65</TRNAMT>
+            <FITID>20260619_93</FITID>
+            <MEMO>Pix enviado Saída MOSER CONTABILIDADE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-70.00</TRNAMT>
+            <FITID>20260618_94</FITID>
+            <MEMO>Pix enviado Saída THIAGO CARNEIRO GUIMARAES DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-302.87</TRNAMT>
+            <FITID>20260618_95</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-93.88</TRNAMT>
+            <FITID>20260618_96</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-350.00</TRNAMT>
+            <FITID>20260618_97</FITID>
+            <MEMO>Pix enviado Saída 67.137.864 FELIPE DA SILVA ADORNO</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-89.22</TRNAMT>
+            <FITID>20260618_98</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-150.00</TRNAMT>
+            <FITID>20260618_99</FITID>
+            <MEMO>Pix enviado Saída ALMEIDA PRODUTOS OTICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-20.00</TRNAMT>
+            <FITID>20260618_100</FITID>
+            <MEMO>Pix enviado Saída SAMUEL DOMINGOS TAVARES DE JESUS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-200.00</TRNAMT>
+            <FITID>20260618_101</FITID>
+            <MEMO>Pix enviado Saída DEISE VELOSO ZANETTI DA SILVA PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 6 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-2055.67</TRNAMT>
+            <FITID>20260618_102</FITID>
+            <MEMO>Pix enviado Saída CAIXA ECONOMICA FEDERAL</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-2107.38</TRNAMT>
+            <FITID>20260618_103</FITID>
+            <MEMO>Pix enviado Saída CAIXA ECONOMICA FEDERAL</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-1839.78</TRNAMT>
+            <FITID>20260618_104</FITID>
+            <MEMO>Pix enviado Saída CAIXA ECONOMICA FEDERAL</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>9000.00</TRNAMT>
+            <FITID>20260618_105</FITID>
+            <MEMO>Dinheiro resgatado Entrada Cofrinho</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-269.59</TRNAMT>
+            <FITID>20260618_106</FITID>
+            <MEMO>Pix enviado Saída CLARO S A</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>1000.59</TRNAMT>
+            <FITID>20260618_107</FITID>
+            <MEMO>Dinheiro resgatado Entrada Cofrinho</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-19.50</TRNAMT>
+            <FITID>20260618_108</FITID>
+            <MEMO>Pix enviado Saída 11 596 824 ROQUE ARCANJO DOS SANTOS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-92.70</TRNAMT>
+            <FITID>20260618_109</FITID>
+            <MEMO>Pix enviado Saída VANUSA GOES LANCHONETE</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260618</DTPOSTED>
+            <TRNAMT>-10.00</TRNAMT>
+            <FITID>20260618_110</FITID>
+            <MEMO>Pix enviado Saída ESFIHARIA JANDIRA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260617</DTPOSTED>
+            <TRNAMT>-500.00</TRNAMT>
+            <FITID>20260617_111</FITID>
+            <MEMO>Pix enviado Saída WILLAMYS RAMOS DOS SANTOS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260617</DTPOSTED>
+            <TRNAMT>-184.00</TRNAMT>
+            <FITID>20260617_112</FITID>
+            <MEMO>Pix enviado Saída EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260617</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260617_113</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-16.00</TRNAMT>
+            <FITID>20260616_114</FITID>
+            <MEMO>Pix enviado Saída LANCHETERIA E RESTAURANTE CRAVO E CANELA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-258.10</TRNAMT>
+            <FITID>20260616_115</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-10000.00</TRNAMT>
+            <FITID>20260616_116</FITID>
+            <MEMO>Dinheiro guardado Saída Cofrinho</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-883.04</TRNAMT>
+            <FITID>20260616_117</FITID>
+            <MEMO>Pix enviado Saída CERTIFIKSE - CERTIFICADOS DIGITAIS - LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-272.40</TRNAMT>
+            <FITID>20260616_118</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-39.90</TRNAMT>
+            <FITID>20260616_119</FITID>
+            <MEMO>Pix enviado Saída LUIS ROBERTO DE MATOS RACOES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-1500.00</TRNAMT>
+            <FITID>20260616_120</FITID>
+            <MEMO>Pix enviado Saída SANDRA CRISTINA DE MORAES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-2080.00</TRNAMT>
+            <FITID>20260616_121</FITID>
+            <MEMO>Pix enviado Saída Edson Sales dos Santos PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 7 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-2890.00</TRNAMT>
+            <FITID>20260616_122</FITID>
+            <MEMO>Pix enviado Saída Samuel Lelles Fernandes</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-2390.00</TRNAMT>
+            <FITID>20260616_123</FITID>
+            <MEMO>Pix enviado Saída LEANDRO DENIS DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-1030.00</TRNAMT>
+            <FITID>20260616_124</FITID>
+            <MEMO>Pix enviado Saída REGINALDO APARECIDO GIMENES MUNHOZ</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>16373.26</TRNAMT>
+            <FITID>20260616_125</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-300.00</TRNAMT>
+            <FITID>20260616_126</FITID>
+            <MEMO>Pix enviado Saída JOAO GUILHERME MACHADO PEREIRA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-69.00</TRNAMT>
+            <FITID>20260616_127</FITID>
+            <MEMO>Pix enviado Saída RESTAURANTE E LANCHONETE FAUSTOLO LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-59.80</TRNAMT>
+            <FITID>20260616_128</FITID>
+            <MEMO>Pix enviado Saída ELETRO AMERICA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-170.00</TRNAMT>
+            <FITID>20260616_129</FITID>
+            <MEMO>Pix enviado Saída MARIA CRISTINA BALDAVIA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-79.90</TRNAMT>
+            <FITID>20260616_130</FITID>
+            <MEMO>Pix enviado Saída LETICIA DA SILVA LIMA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260616</DTPOSTED>
+            <TRNAMT>-125.00</TRNAMT>
+            <FITID>20260616_131</FITID>
+            <MEMO>Pix enviado Saída LETICIA DA SILVA LIMA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260615</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260615_132</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260614</DTPOSTED>
+            <TRNAMT>-64.99</TRNAMT>
+            <FITID>20260614_133</FITID>
+            <MEMO>Pix enviado Saída VILLAGE MATERIAIS DE ACABAMENTO LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260614</DTPOSTED>
+            <TRNAMT>-132.58</TRNAMT>
+            <FITID>20260614_134</FITID>
+            <MEMO>Pix enviado Saída VELOX FIBER TELECOMUNICACOES LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260614</DTPOSTED>
+            <TRNAMT>-24.80</TRNAMT>
+            <FITID>20260614_135</FITID>
+            <MEMO>Pix enviado Saída PAES E DOCES VICOZA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260613</DTPOSTED>
+            <TRNAMT>-372.33</TRNAMT>
+            <FITID>20260613_136</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260613</DTPOSTED>
+            <TRNAMT>-1463.00</TRNAMT>
+            <FITID>20260613_137</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260613</DTPOSTED>
+            <TRNAMT>-460.00</TRNAMT>
+            <FITID>20260613_138</FITID>
+            <MEMO>Pix enviado Saída Athina Mendonça Batista</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260613</DTPOSTED>
+            <TRNAMT>-1142.50</TRNAMT>
+            <FITID>20260613_139</FITID>
+            <MEMO>Pix enviado Saída VIP HIKVISION STORE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260612</DTPOSTED>
+            <TRNAMT>-20.00</TRNAMT>
+            <FITID>20260612_140</FITID>
+            <MEMO>Pix enviado Saída ISRAEL JOSE DA SILVA BLUMER PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 8 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260612</DTPOSTED>
+            <TRNAMT>-278.29</TRNAMT>
+            <FITID>20260612_141</FITID>
+            <MEMO>Pix enviado Saída JAIR JANUARIO DE ANDRADE</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260612</DTPOSTED>
+            <TRNAMT>-500.00</TRNAMT>
+            <FITID>20260612_142</FITID>
+            <MEMO>Pix enviado Saída SANDRA CRISTINA DE MORAES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260612</DTPOSTED>
+            <TRNAMT>-200.00</TRNAMT>
+            <FITID>20260612_143</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260612</DTPOSTED>
+            <TRNAMT>-2847.29</TRNAMT>
+            <FITID>20260612_144</FITID>
+            <MEMO>Pix enviado Saída CERTIFIKSE - CERTIFICADOS DIGITAIS - LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260612</DTPOSTED>
+            <TRNAMT>-99.00</TRNAMT>
+            <FITID>20260612_145</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260612</DTPOSTED>
+            <TRNAMT>-1600.00</TRNAMT>
+            <FITID>20260612_146</FITID>
+            <MEMO>Pix enviado Saída Nicoly Caroline Melo Pedroza Santana</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>-960.00</TRNAMT>
+            <FITID>20260611_147</FITID>
+            <MEMO>Pix enviado Saída Renato Teixeira da Silva Vinha</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>-265.94</TRNAMT>
+            <FITID>20260611_148</FITID>
+            <MEMO>Pix enviado Saída CLARO S A</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>7151.55</TRNAMT>
+            <FITID>20260611_149</FITID>
+            <MEMO>Pix recebido Entrada EAD Solucoes Integradas Ltda</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>-62.00</TRNAMT>
+            <FITID>20260611_150</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260611</DTPOSTED>
+            <TRNAMT>-151.00</TRNAMT>
+            <FITID>20260611_151</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-132.58</TRNAMT>
+            <FITID>20260610_152</FITID>
+            <MEMO>Pix enviado Saída VELOX FIBER TELECOMUNICACOES LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>6000.00</TRNAMT>
+            <FITID>20260610_153</FITID>
+            <MEMO>Pix recebido Entrada EAD Solucoes Integradas Ltda</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-640.00</TRNAMT>
+            <FITID>20260610_154</FITID>
+            <MEMO>Pix enviado Saída GILBERTO ANTONIO COPATI</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-1070.00</TRNAMT>
+            <FITID>20260610_155</FITID>
+            <MEMO>Pix enviado Saída EDUARDO PUZINATI DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-640.00</TRNAMT>
+            <FITID>20260610_156</FITID>
+            <MEMO>Pix enviado Saída 11 596 824 ROQUE ARCANJO DOS SANTOS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-640.00</TRNAMT>
+            <FITID>20260610_157</FITID>
+            <MEMO>Pix enviado Saída Antonio Carlos de Jesus Costa</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-2391.00</TRNAMT>
+            <FITID>20260610_158</FITID>
+            <MEMO>Pix enviado Saída JOAO PEDRO NEVES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-2688.00</TRNAMT>
+            <FITID>20260610_159</FITID>
+            <MEMO>Pix enviado Saída EROTIDES APARECIDO DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-2391.00</TRNAMT>
+            <FITID>20260610_160</FITID>
+            <MEMO>Pix enviado Saída ISRAEL JOSE DA SILVA BLUMER</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-2644.00</TRNAMT>
+            <FITID>20260610_161</FITID>
+            <MEMO>Pix enviado Saída EVERALDO GOMES PEREIRA PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 9 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>10000.00</TRNAMT>
+            <FITID>20260610_162</FITID>
+            <MEMO>Pix recebido Entrada EAD SEGURANCA E TECNOLOGIA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-3260.41</TRNAMT>
+            <FITID>20260610_163</FITID>
+            <MEMO>Pix enviado Saída LETICIA DA SILVA LIMA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-2710.05</TRNAMT>
+            <FITID>20260610_164</FITID>
+            <MEMO>Pix enviado Saída ANTONIO MARCOS FERNANDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>-1634.76</TRNAMT>
+            <FITID>20260610_165</FITID>
+            <MEMO>Pix enviado Saída Eduardo Moreira da Silva</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>4937.39</TRNAMT>
+            <FITID>20260610_166</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260610</DTPOSTED>
+            <TRNAMT>10270.46</TRNAMT>
+            <FITID>20260610_167</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260609</DTPOSTED>
+            <TRNAMT>-3291.26</TRNAMT>
+            <FITID>20260609_168</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260609</DTPOSTED>
+            <TRNAMT>-240.00</TRNAMT>
+            <FITID>20260609_169</FITID>
+            <MEMO>Pix enviado Saída CERTIFIKSE - CERTIFICADOS DIGITAIS - LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260609</DTPOSTED>
+            <TRNAMT>-60.00</TRNAMT>
+            <FITID>20260609_170</FITID>
+            <MEMO>Pix enviado Saída THIAGO CARNEIRO GUIMARAES DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260608</DTPOSTED>
+            <TRNAMT>-500.00</TRNAMT>
+            <FITID>20260608_171</FITID>
+            <MEMO>Pix enviado Saída SANDRA CRISTINA DE MORAES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260608</DTPOSTED>
+            <TRNAMT>-200.00</TRNAMT>
+            <FITID>20260608_172</FITID>
+            <MEMO>Pix enviado Saída Athina Mendonça Batista</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260608</DTPOSTED>
+            <TRNAMT>-560.00</TRNAMT>
+            <FITID>20260608_173</FITID>
+            <MEMO>Pix enviado Saída Athina Mendonça Batista</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260608</DTPOSTED>
+            <TRNAMT>-2906.45</TRNAMT>
+            <FITID>20260608_174</FITID>
+            <MEMO>Pix enviado Saída MARIA JOSE DO NASCIMENTO FREITAS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260608</DTPOSTED>
+            <TRNAMT>-2746.45</TRNAMT>
+            <FITID>20260608_175</FITID>
+            <MEMO>Pix enviado Saída Edson Sales dos Santos</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260608</DTPOSTED>
+            <TRNAMT>-2381.05</TRNAMT>
+            <FITID>20260608_176</FITID>
+            <MEMO>Pix enviado Saída JAIR JANUARIO DE ANDRADE</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260608</DTPOSTED>
+            <TRNAMT>-4666.08</TRNAMT>
+            <FITID>20260608_177</FITID>
+            <MEMO>Pix enviado Saída Roberto Aparecido Gimenes Munhoz</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260608</DTPOSTED>
+            <TRNAMT>-1100.00</TRNAMT>
+            <FITID>20260608_178</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260608</DTPOSTED>
+            <TRNAMT>18651.29</TRNAMT>
+            <FITID>20260608_179</FITID>
+            <MEMO>Pix recebido Entrada MITZ MATRIZ EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260515</DTPOSTED>
+            <TRNAMT>-2101.91</TRNAMT>
+            <FITID>20260515_180</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260514</DTPOSTED>
+            <TRNAMT>-200.00</TRNAMT>
+            <FITID>20260514_181</FITID>
+            <MEMO>Pix enviado Saída UNYEAD EDUCACIONAL S.A.</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260513</DTPOSTED>
+            <TRNAMT>-49.70</TRNAMT>
+            <FITID>20260513_182</FITID>
+            <MEMO>Pix enviado Saída JS FOODS COMERCIO DE ALIMENTOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260513</DTPOSTED>
+            <TRNAMT>-83.39</TRNAMT>
+            <FITID>20260513_183</FITID>
+            <MEMO>Pix enviado Saída ORIENTAL BARUERI ALIMENTOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260513</DTPOSTED>
+            <TRNAMT>-90.00</TRNAMT>
+            <FITID>20260513_184</FITID>
+            <MEMO>Pix enviado Saída PEDRO RIOJI HIRANO</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260513</DTPOSTED>
+            <TRNAMT>-2475.00</TRNAMT>
+            <FITID>20260513_185</FITID>
+            <MEMO>Pix enviado Saída Luiz Henrique Antunes Ribeiro</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260513</DTPOSTED>
+            <TRNAMT>-29.70</TRNAMT>
+            <FITID>20260513_186</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260513</DTPOSTED>
+            <TRNAMT>-341.72</TRNAMT>
+            <FITID>20260513_187</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260513</DTPOSTED>
+            <TRNAMT>-132.58</TRNAMT>
+            <FITID>20260513_188</FITID>
+            <MEMO>Pix enviado Saída VELOX FIBER TELECOMUNICACOES LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260512</DTPOSTED>
+            <TRNAMT>-1700.00</TRNAMT>
+            <FITID>20260512_189</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260512</DTPOSTED>
+            <TRNAMT>-276.00</TRNAMT>
+            <FITID>20260512_190</FITID>
+            <MEMO>Pix enviado Saída JANETE MARQUES LIMA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260512</DTPOSTED>
+            <TRNAMT>-2504.00</TRNAMT>
+            <FITID>20260512_191</FITID>
+            <MEMO>Pix enviado Saída TIAGO PEREIRA DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260512</DTPOSTED>
+            <TRNAMT>-2475.00</TRNAMT>
+            <FITID>20260512_192</FITID>
+            <MEMO>Pix enviado Saída LUIZ HENRIQUE ANTUNES RIBEIRO</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260512</DTPOSTED>
+            <TRNAMT>-2037.00</TRNAMT>
+            <FITID>20260512_193</FITID>
+            <MEMO>Pix enviado Saída Daniel dos Santos Bezerra</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260512</DTPOSTED>
+            <TRNAMT>-2264.00</TRNAMT>
+            <FITID>20260512_194</FITID>
+            <MEMO>Pix enviado Saída VICTOR ANGELO MARQUES LIMA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260512</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260512_195</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260512</DTPOSTED>
+            <TRNAMT>-36.00</TRNAMT>
+            <FITID>20260512_196</FITID>
+            <MEMO>Pix enviado Saída LUCAS SOUZA SANTOS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260512</DTPOSTED>
+            <TRNAMT>-604.00</TRNAMT>
+            <FITID>20260512_197</FITID>
+            <MEMO>Pix enviado Saída Rodrigo Vieira de Abreu de Sousa</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-500.00</TRNAMT>
+            <FITID>20260511_198</FITID>
+            <MEMO>Pix enviado Saída SANDRA CRISTINA DE MORAES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-338.16</TRNAMT>
+            <FITID>20260511_199</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-300.00</TRNAMT>
+            <FITID>20260511_200</FITID>
+            <MEMO>Pix enviado Saída JOAO GUILHERME MACHADO PEREIRA PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 11 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>5432.69</TRNAMT>
+            <FITID>20260511_201</FITID>
+            <MEMO>Pix recebido Entrada EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>5030.76</TRNAMT>
+            <FITID>20260511_202</FITID>
+            <MEMO>Pix recebido Entrada EAD Solucoes Integradas Ltda</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-463.20</TRNAMT>
+            <FITID>20260511_203</FITID>
+            <MEMO>Pix enviado Saída Eduardo Moreira da Silva</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-2036.00</TRNAMT>
+            <FITID>20260511_204</FITID>
+            <MEMO>Pix enviado Saída Mohamed Elmansour</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-160.00</TRNAMT>
+            <FITID>20260511_205</FITID>
+            <MEMO>Pix enviado Saída LEANDRO DENIS DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-2450.00</TRNAMT>
+            <FITID>20260511_206</FITID>
+            <MEMO>Pix enviado Saída ANTONIO MARCOS FERNANDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>-2567.20</TRNAMT>
+            <FITID>20260511_207</FITID>
+            <MEMO>Pix enviado Saída LETICIA DA SILVA LIMA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>5082.10</TRNAMT>
+            <FITID>20260511_208</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260511</DTPOSTED>
+            <TRNAMT>10570.31</TRNAMT>
+            <FITID>20260511_209</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260510</DTPOSTED>
+            <TRNAMT>-15.10</TRNAMT>
+            <FITID>20260510_210</FITID>
+            <MEMO>Pix enviado Saída AUTO POSTO POLISERVICOS I LIMITADA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-4000.00</TRNAMT>
+            <FITID>20260509_211</FITID>
+            <MEMO>Pix enviado Saída EAD SOLUCOES INTEGRADAS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-600.00</TRNAMT>
+            <FITID>20260509_212</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260509_213</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-264.00</TRNAMT>
+            <FITID>20260509_214</FITID>
+            <MEMO>Pix enviado Saída JAIR JANUARIO DE ANDRADE</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-2000.00</TRNAMT>
+            <FITID>20260509_215</FITID>
+            <MEMO>Pix enviado Saída SANDRA CRISTINA DE MORAES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-3010.40</TRNAMT>
+            <FITID>20260509_216</FITID>
+            <MEMO>Pix enviado Saída MARIA JOSE DO NASCIMENTO FREITAS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-2746.00</TRNAMT>
+            <FITID>20260509_217</FITID>
+            <MEMO>Pix enviado Saída Edson Sales dos Santos</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-2381.00</TRNAMT>
+            <FITID>20260509_218</FITID>
+            <MEMO>Pix enviado Saída JAIR JANUARIO DE ANDRADE</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260509</DTPOSTED>
+            <TRNAMT>-2702.00</TRNAMT>
+            <FITID>20260509_219</FITID>
+            <MEMO>Pix enviado Saída Roberto Aparecido Gimenes Munhoz</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260508</DTPOSTED>
+            <TRNAMT>-130.00</TRNAMT>
+            <FITID>20260508_220</FITID>
+            <MEMO>Pix enviado Saída EDUARDO PUZINATI DA SILVA PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 12 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260508</DTPOSTED>
+            <TRNAMT>-290.00</TRNAMT>
+            <FITID>20260508_221</FITID>
+            <MEMO>Pix enviado Saída ARMANDO GOMES DUQUE JUNIOR</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260508</DTPOSTED>
+            <TRNAMT>-1562.80</TRNAMT>
+            <FITID>20260508_222</FITID>
+            <MEMO>Pix enviado Saída RICKY SEGURANCA DO TRABALHO E ASSESSORIA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260508</DTPOSTED>
+            <TRNAMT>-6654.55</TRNAMT>
+            <FITID>20260508_223</FITID>
+            <MEMO>Pix enviado Saída EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260508</DTPOSTED>
+            <TRNAMT>-2080.00</TRNAMT>
+            <FITID>20260508_224</FITID>
+            <MEMO>Pix enviado Saída Edson Sales dos Santos</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260508</DTPOSTED>
+            <TRNAMT>-2040.00</TRNAMT>
+            <FITID>20260508_225</FITID>
+            <MEMO>Pix enviado Saída Samuel Lelles Fernandes</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260508</DTPOSTED>
+            <TRNAMT>-2550.00</TRNAMT>
+            <FITID>20260508_226</FITID>
+            <MEMO>Pix enviado Saída LEANDRO DENIS DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260508</DTPOSTED>
+            <TRNAMT>-1700.00</TRNAMT>
+            <FITID>20260508_227</FITID>
+            <MEMO>Pix enviado Saída REGINALDO APARECIDO GIMENES MUNHOZ</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260507</DTPOSTED>
+            <TRNAMT>18651.29</TRNAMT>
+            <FITID>20260507_228</FITID>
+            <MEMO>Pix recebido Entrada MITZ MATRIZ EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260507</DTPOSTED>
+            <TRNAMT>16373.26</TRNAMT>
+            <FITID>20260507_229</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260417</DTPOSTED>
+            <TRNAMT>-66.74</TRNAMT>
+            <FITID>20260417_230</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260414</DTPOSTED>
+            <TRNAMT>-540.00</TRNAMT>
+            <FITID>20260414_231</FITID>
+            <MEMO>Pix enviado Saída ADRIANO &amp; ANDRE COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260413</DTPOSTED>
+            <TRNAMT>-2810.00</TRNAMT>
+            <FITID>20260413_232</FITID>
+            <MEMO>Pix enviado Saída Daniel dos Santos Bezerra</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260413</DTPOSTED>
+            <TRNAMT>-2819.00</TRNAMT>
+            <FITID>20260413_233</FITID>
+            <MEMO>Pix enviado Saída TIAGO PEREIRA DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260413</DTPOSTED>
+            <TRNAMT>-2754.00</TRNAMT>
+            <FITID>20260413_234</FITID>
+            <MEMO>Pix enviado Saída Luiz Henrique Antunes Ribeiro</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260413</DTPOSTED>
+            <TRNAMT>-2381.00</TRNAMT>
+            <FITID>20260413_235</FITID>
+            <MEMO>Pix enviado Saída VICTOR ANGELO MARQUES LIMA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260413</DTPOSTED>
+            <TRNAMT>-370.00</TRNAMT>
+            <FITID>20260413_236</FITID>
+            <MEMO>Pix enviado Saída ALEXSANDRO PEREIRA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260413</DTPOSTED>
+            <TRNAMT>-10.00</TRNAMT>
+            <FITID>20260413_237</FITID>
+            <MEMO>Pix enviado Saída EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260413</DTPOSTED>
+            <TRNAMT>10.00</TRNAMT>
+            <FITID>20260413_238</FITID>
+            <MEMO>Pix recebido Entrada EAD PEDROZA SERVICOS LTDA PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 13 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260413</DTPOSTED>
+            <TRNAMT>10.00</TRNAMT>
+            <FITID>20260413_239</FITID>
+            <MEMO>Pix recebido Entrada EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260413</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260413_240</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260411</DTPOSTED>
+            <TRNAMT>-224.40</TRNAMT>
+            <FITID>20260411_241</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260411</DTPOSTED>
+            <TRNAMT>-170.00</TRNAMT>
+            <FITID>20260411_242</FITID>
+            <MEMO>Pix enviado Saída VETPIO SERVICO VETERINARIO LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260411</DTPOSTED>
+            <TRNAMT>-1820.00</TRNAMT>
+            <FITID>20260411_243</FITID>
+            <MEMO>Pix enviado Saída RIVALDO GOMES DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260411</DTPOSTED>
+            <TRNAMT>-799.99</TRNAMT>
+            <FITID>20260411_244</FITID>
+            <MEMO>Pix enviado Saída 39 489 967 CAMILA REGIANE SANTOS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260411</DTPOSTED>
+            <TRNAMT>-1500.00</TRNAMT>
+            <FITID>20260411_245</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260410</DTPOSTED>
+            <TRNAMT>-3802.40</TRNAMT>
+            <FITID>20260410_246</FITID>
+            <MEMO>Pix enviado Saída EROTIDES APARECIDO DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260410</DTPOSTED>
+            <TRNAMT>-1320.00</TRNAMT>
+            <FITID>20260410_247</FITID>
+            <MEMO>Pix enviado Saída Nicoly Caroline Melo Pedroza Santana</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260410</DTPOSTED>
+            <TRNAMT>-3230.00</TRNAMT>
+            <FITID>20260410_248</FITID>
+            <MEMO>Pix enviado Saída Samuel Lelles Fernandes</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260410</DTPOSTED>
+            <TRNAMT>-2250.00</TRNAMT>
+            <FITID>20260410_249</FITID>
+            <MEMO>Pix enviado Saída Edson Sales dos Santos</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260410</DTPOSTED>
+            <TRNAMT>-2850.00</TRNAMT>
+            <FITID>20260410_250</FITID>
+            <MEMO>Pix enviado Saída LEANDRO DENIS DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260410</DTPOSTED>
+            <TRNAMT>-520.00</TRNAMT>
+            <FITID>20260410_251</FITID>
+            <MEMO>Pix enviado Saída REGINALDO APARECIDO GIMENES MUNHOZ</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260410</DTPOSTED>
+            <TRNAMT>-1500.00</TRNAMT>
+            <FITID>20260410_252</FITID>
+            <MEMO>Pix enviado Saída SANDRA CRISTINA DE MORAES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260410</DTPOSTED>
+            <TRNAMT>4948.91</TRNAMT>
+            <FITID>20260410_253</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260410</DTPOSTED>
+            <TRNAMT>10294.45</TRNAMT>
+            <FITID>20260410_254</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260409</DTPOSTED>
+            <TRNAMT>16407.32</TRNAMT>
+            <FITID>20260409_255</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260409</DTPOSTED>
+            <TRNAMT>-7000.00</TRNAMT>
+            <FITID>20260409_256</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260408</DTPOSTED>
+            <TRNAMT>-500.00</TRNAMT>
+            <FITID>20260408_257</FITID>
+            <MEMO>Pix enviado Saída SANDRA CRISTINA DE MORAES PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 14 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260408</DTPOSTED>
+            <TRNAMT>-2660.00</TRNAMT>
+            <FITID>20260408_258</FITID>
+            <MEMO>Pix enviado Saída JAIR JANUARIO DE ANDRADE</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260408</DTPOSTED>
+            <TRNAMT>-2964.00</TRNAMT>
+            <FITID>20260408_259</FITID>
+            <MEMO>Pix enviado Saída MARIA JOSE DO NASCIMENTO FREITAS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260408</DTPOSTED>
+            <TRNAMT>-2702.00</TRNAMT>
+            <FITID>20260408_260</FITID>
+            <MEMO>Pix enviado Saída Edson Sales dos Santos</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260408</DTPOSTED>
+            <TRNAMT>-2702.00</TRNAMT>
+            <FITID>20260408_261</FITID>
+            <MEMO>Pix enviado Saída Roberto Aparecido Gimenes Munhoz</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260408</DTPOSTED>
+            <TRNAMT>18694.85</TRNAMT>
+            <FITID>20260408_262</FITID>
+            <MEMO>Pix recebido Entrada MITZ MATRIZ EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260321</DTPOSTED>
+            <TRNAMT>-13.21</TRNAMT>
+            <FITID>20260321_263</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260319</DTPOSTED>
+            <TRNAMT>-14.63</TRNAMT>
+            <FITID>20260319_264</FITID>
+            <MEMO>Pix enviado Saída UME SORVETERIA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260319</DTPOSTED>
+            <TRNAMT>-66.58</TRNAMT>
+            <FITID>20260319_265</FITID>
+            <MEMO>Pix enviado Saída PIX Marketplace</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260319</DTPOSTED>
+            <TRNAMT>90.00</TRNAMT>
+            <FITID>20260319_266</FITID>
+            <MEMO>Pix recebido Entrada ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260319</DTPOSTED>
+            <TRNAMT>-130.00</TRNAMT>
+            <FITID>20260319_267</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260318</DTPOSTED>
+            <TRNAMT>-359.73</TRNAMT>
+            <FITID>20260318_268</FITID>
+            <MEMO>Pix enviado Saída UNYEAD EDUCACIONAL S.A.</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260317</DTPOSTED>
+            <TRNAMT>-8000.00</TRNAMT>
+            <FITID>20260317_269</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260316</DTPOSTED>
+            <TRNAMT>-12.00</TRNAMT>
+            <FITID>20260316_270</FITID>
+            <MEMO>Pix enviado Saída BRUNO RODRIGUES SANTOS SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260316</DTPOSTED>
+            <TRNAMT>-600.00</TRNAMT>
+            <FITID>20260316_271</FITID>
+            <MEMO>Pix enviado Saída EAD SEGURANCA E TECNOLOGIA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260316</DTPOSTED>
+            <TRNAMT>-1300.00</TRNAMT>
+            <FITID>20260316_272</FITID>
+            <MEMO>Pix enviado Saída 37.007.342 LUIZ CARLOS BATISTA DE SOUZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260316</DTPOSTED>
+            <TRNAMT>10058.60</TRNAMT>
+            <FITID>20260316_273</FITID>
+            <MEMO>Pix recebido Entrada MITZ MATRIZ EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260316</DTPOSTED>
+            <TRNAMT>-40.00</TRNAMT>
+            <FITID>20260316_274</FITID>
+            <MEMO>Pix enviado Saída BRUNO RODRIGUES SANTOS SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260315</DTPOSTED>
+            <TRNAMT>-35.00</TRNAMT>
+            <FITID>20260315_275</FITID>
+            <MEMO>Pix enviado Saída Valmir dos Anjos Gomes de Alencar</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260315</DTPOSTED>
+            <TRNAMT>-13.00</TRNAMT>
+            <FITID>20260315_276</FITID>
+            <MEMO>Pix enviado Saída MARIA DO CARMO CANDIDA DE JESUS 07917212807</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260315</DTPOSTED>
+            <TRNAMT>-101.84</TRNAMT>
+            <FITID>20260315_277</FITID>
+            <MEMO>Pix enviado Saída VILLAGE MATERIAIS DE ACABAMENTO LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260315</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260315_278</FITID>
+            <MEMO>Pix enviado Saída AUTO POSTO CENTRAL DOS COMBUSTIVEIS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260315</DTPOSTED>
+            <TRNAMT>-22.75</TRNAMT>
+            <FITID>20260315_279</FITID>
+            <MEMO>Pix enviado Saída YONETA BAZAR E PAPEL LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260315</DTPOSTED>
+            <TRNAMT>-127.37</TRNAMT>
+            <FITID>20260315_280</FITID>
+            <MEMO>Pix enviado Saída SUPERMERCADO PANDA 2 LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260314</DTPOSTED>
+            <TRNAMT>-12.00</TRNAMT>
+            <FITID>20260314_281</FITID>
+            <MEMO>Pix enviado Saída 51.475.817 JACILENE NUNES DE SOUZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260313</DTPOSTED>
+            <TRNAMT>-50.00</TRNAMT>
+            <FITID>20260313_282</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260313</DTPOSTED>
+            <TRNAMT>-30.00</TRNAMT>
+            <FITID>20260313_283</FITID>
+            <MEMO>Pix enviado Saída DROGARIA BROTINHO LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260313</DTPOSTED>
+            <TRNAMT>-12.00</TRNAMT>
+            <FITID>20260313_284</FITID>
+            <MEMO>Pix enviado Saída Roberta de Souza Machado</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260313</DTPOSTED>
+            <TRNAMT>-40.00</TRNAMT>
+            <FITID>20260313_285</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260313</DTPOSTED>
+            <TRNAMT>-56.00</TRNAMT>
+            <FITID>20260313_286</FITID>
+            <MEMO>Pix enviado Saída JOAO VALENTIM DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260313</DTPOSTED>
+            <TRNAMT>-90.00</TRNAMT>
+            <FITID>20260313_287</FITID>
+            <MEMO>Pix enviado Saída SANDRA ELIAS DOS SANTOS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-1246.59</TRNAMT>
+            <FITID>20260312_288</FITID>
+            <MEMO>Pix enviado Saída WMS SUPERMERCADOS DO BRASIL LTDA.</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-36.50</TRNAMT>
+            <FITID>20260312_289</FITID>
+            <MEMO>Pix enviado Saída ARCOS DOURADOS COMERCIO DE ALIMENTOS SA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260312_290</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-10.00</TRNAMT>
+            <FITID>20260312_291</FITID>
+            <MEMO>Pix enviado Saída 51.475.817 JACILENE NUNES DE SOUZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-11.00</TRNAMT>
+            <FITID>20260312_292</FITID>
+            <MEMO>Pix enviado Saída 51.475.817 JACILENE NUNES DE SOUZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-660.00</TRNAMT>
+            <FITID>20260312_293</FITID>
+            <MEMO>Pix enviado Saída Djalma de Lima Silva</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-686.66</TRNAMT>
+            <FITID>20260312_294</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 16 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-693.40</TRNAMT>
+            <FITID>20260312_295</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-1615.23</TRNAMT>
+            <FITID>20260312_296</FITID>
+            <MEMO>Pix enviado Saída CERTIFIKSE - CERTIFICADOS DIGITAIS - LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-2570.09</TRNAMT>
+            <FITID>20260312_297</FITID>
+            <MEMO>Pix enviado Saída CERTIFIKSE - CERTIFICADOS DIGITAIS - LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-565.44</TRNAMT>
+            <FITID>20260312_298</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-773.00</TRNAMT>
+            <FITID>20260312_299</FITID>
+            <MEMO>Pix enviado Saída LANCHONETE E RESTAURANTE EXPERIMENTA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-487.30</TRNAMT>
+            <FITID>20260312_300</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-733.50</TRNAMT>
+            <FITID>20260312_301</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-306.69</TRNAMT>
+            <FITID>20260312_302</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-690.34</TRNAMT>
+            <FITID>20260312_303</FITID>
+            <MEMO>Pix enviado Saída CAIXA ECONOMICA FEDERAL</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-1500.00</TRNAMT>
+            <FITID>20260312_304</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-3000.00</TRNAMT>
+            <FITID>20260312_305</FITID>
+            <MEMO>Pix enviado Saída SANDRA CRISTINA DE MORAES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-1334.19</TRNAMT>
+            <FITID>20260312_306</FITID>
+            <MEMO>Pix enviado Saída CAIXA ECONOMICA FEDERAL</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-376.39</TRNAMT>
+            <FITID>20260312_307</FITID>
+            <MEMO>Pix enviado Saída CAIXA ECONOMICA FEDERAL</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>1233.59</TRNAMT>
+            <FITID>20260312_308</FITID>
+            <MEMO>Pix recebido Entrada EAD SEGURANCA E TECNOLOGIA LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260312</DTPOSTED>
+            <TRNAMT>-50.00</TRNAMT>
+            <FITID>20260312_309</FITID>
+            <MEMO>Pix enviado Saída AUTO POSTO CENTRAL DOS COMBUSTIVEIS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-354.00</TRNAMT>
+            <FITID>20260311_310</FITID>
+            <MEMO>Pix enviado Saída 65.593.304 NICOLY CAROLINE MELO PEDROZA SANTANA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-337.30</TRNAMT>
+            <FITID>20260311_311</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-337.30</TRNAMT>
+            <FITID>20260311_312</FITID>
+            <MEMO>Pagamento de boleto Saída Saldo</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260311_313</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-400.00</TRNAMT>
+            <FITID>20260311_314</FITID>
+            <MEMO>Pix enviado Saída CENTRO DE FORMACAO DE CONDUTORES LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>1899.03</TRNAMT>
+            <FITID>20260311_315</FITID>
+            <MEMO>Pix recebido Entrada EAD SEGURANCA E TECNOLOGIA LTDA PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 17 de 19</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-74.00</TRNAMT>
+            <FITID>20260311_316</FITID>
+            <MEMO>Pix enviado Saída JOAO VALENTIM DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-2853.00</TRNAMT>
+            <FITID>20260311_317</FITID>
+            <MEMO>Pix enviado Saída MARIA JOSE DO NASCIMENTO FREITAS</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-3820.00</TRNAMT>
+            <FITID>20260311_318</FITID>
+            <MEMO>Pix enviado Saída WELINGTON JOSE DA NEIVA FAGUNDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-2395.00</TRNAMT>
+            <FITID>20260311_319</FITID>
+            <MEMO>Pix enviado Saída EROTIDES APARECIDO DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-2391.00</TRNAMT>
+            <FITID>20260311_320</FITID>
+            <MEMO>Pix enviado Saída JOAO PEDRO NEVES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260311</DTPOSTED>
+            <TRNAMT>-2940.00</TRNAMT>
+            <FITID>20260311_321</FITID>
+            <MEMO>Pix enviado Saída EVERALDO GOMES PEREIRA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260310</DTPOSTED>
+            <TRNAMT>-2779.60</TRNAMT>
+            <FITID>20260310_322</FITID>
+            <MEMO>Pix enviado Saída TIAGO PEREIRA DA SILVA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260310</DTPOSTED>
+            <TRNAMT>-1562.13</TRNAMT>
+            <FITID>20260310_323</FITID>
+            <MEMO>Pix enviado Saída Daniel dos Santos Bezerra</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260310</DTPOSTED>
+            <TRNAMT>16691.76</TRNAMT>
+            <FITID>20260310_324</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260310</DTPOSTED>
+            <TRNAMT>11094.00</TRNAMT>
+            <FITID>20260310_325</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260310</DTPOSTED>
+            <TRNAMT>5334.11</TRNAMT>
+            <FITID>20260310_326</FITID>
+            <MEMO>Pix recebido Entrada SZN 06 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260310</DTPOSTED>
+            <TRNAMT>-10.00</TRNAMT>
+            <FITID>20260310_327</FITID>
+            <MEMO>Pix enviado Saída ANTONIO MARCOS FERNANDES</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260310</DTPOSTED>
+            <TRNAMT>-700.00</TRNAMT>
+            <FITID>20260310_328</FITID>
+            <MEMO>Pix enviado Saída Abmael de Souza Pedroza</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260310</DTPOSTED>
+            <TRNAMT>-1306.54</TRNAMT>
+            <FITID>20260310_329</FITID>
+            <MEMO>Pix enviado Saída NU PAGAMENTOS S/A</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260309</DTPOSTED>
+            <TRNAMT>-1020.00</TRNAMT>
+            <FITID>20260309_330</FITID>
+            <MEMO>Pix enviado Saída AUGUSTO CORREIA DA CORTE</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260308</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260308_331</FITID>
+            <MEMO>Pix enviado Saída EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260308</DTPOSTED>
+            <TRNAMT>-28.80</TRNAMT>
+            <FITID>20260308_332</FITID>
+            <MEMO>Pix enviado Saída Daniel dos Santos Bezerra</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260306</DTPOSTED>
+            <TRNAMT>-3100.00</TRNAMT>
+            <FITID>20260306_333</FITID>
+            <MEMO>Pix enviado Saída EAD PEDROZA SERVICOS LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260306</DTPOSTED>
+            <TRNAMT>-25.00</TRNAMT>
+            <FITID>20260306_334</FITID>
+            <MEMO>Pix enviado Saída DENISE DO NASCIMENTO RIBEIRO</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT</TRNTYPE>
+            <DTPOSTED>20260305</DTPOSTED>
+            <TRNAMT>-100.00</TRNAMT>
+            <FITID>20260305_335</FITID>
+            <MEMO>Pix enviado Saída ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260303</DTPOSTED>
+            <TRNAMT>9000.00</TRNAMT>
+            <FITID>20260303_336</FITID>
+            <MEMO>Pix recebido Entrada MITZ MATRIZ EMPREENDIMENTOS IMOBILIARIOS SPE LTDA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260221</DTPOSTED>
+            <TRNAMT>5.00</TRNAMT>
+            <FITID>20260221_337</FITID>
+            <MEMO>Pix recebido Entrada ABMAEL DE SOUZA PEDROZA</MEMO>
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT</TRNTYPE>
+            <DTPOSTED>20260219</DTPOSTED>
+            <TRNAMT>0.01</TRNAMT>
+            <FITID>20260219_338</FITID>
+            <MEMO>Pix recebido Entrada WELINGTON JOSE DA NEIVA FAGUNDES PicPay Serviços SA - CNPJ 22.896.431/0001-10 Se você ficou com alguma dúvida sobre os valores registrados no seu extrato bancário, entre em contato com a nossa Ouvidoria, ligue para 0800 025 2000 em dias úteis das 10h às 12h e 13h às 15h. 19 de 19</MEMO>
+          </STMTTRN>
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>0.00</BALAMT>
+          <DTASOF>20260825</DTASOF>
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>

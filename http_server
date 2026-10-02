@@ -1,0 +1,53 @@
+from http.server import BaseHTTPRequestHandler, HTTPServer
+import datetime
+import json
+
+PORT = 8080
+LOG_FILE = "security_audit.log"
+
+class SecurityTrapHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.handle_request_data("GET")
+
+    def do_POST(self):
+        self.handle_request_data("POST")
+
+    def handle_request_data(self, method):
+        client_ip = self.client_address[0]
+        timestamp = datetime.datetime.now().isoformat()
+        path = self.path
+        headers = dict(self.headers)
+
+        # Monta o pacote de log forense
+        log_entry = {
+            "timestamp": timestamp,
+            "attacker_ip": client_ip,
+            "method": method,
+            "path": path,
+            "headers": headers
+        }
+
+        # Salva no arquivo de auditoria local (append-only)
+        with open(LOG_FILE, "a") as f:
+            f.write(json.dumps(log_entry) + "\n")
+
+        print(f"[!] ALERTA DE VARREDURA: IP {client_ip} acessou {path} via {method}")
+
+        # Responde com um disfarce genérico (ex: 404 Not Found para parecer um servidor vazio)
+        self.send_response(404)
+        self.send_header("Content-type", "text/plain")
+        self.end_headers()
+        self.wfile.write(b"404 Not Found")
+
+def run():
+    server_address = ('0.0.0.0', PORT)
+    httpd = HTTPServer(server_address, SecurityTrapHandler)
+    print(f"[*] SentinelTrap rodando na porta {PORT}. Aguardando intrusos...")
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        print("\n[!] Servidor encerrado com segurança.")
+        httpd.server_close()
+
+if __name__ == '__main__':
+    run()
