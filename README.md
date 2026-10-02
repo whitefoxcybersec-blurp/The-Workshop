@@ -1,27 +1,38 @@
 
-# Workshop
+# The Workshop
 
-Este workspace reúne três projetos de estudo e prototipagem em segurança,
-observabilidade e processamento de eventos:
+Este workspace está sendo estruturado como um laboratório de engenharia de
+segurança e observabilidade, com três camadas bem definidas e um contrato de
+integração claro entre elas.
 
-- `ARES`: servidor HTTP/1.1 em C, construído sobre sockets POSIX.
-- `ARGUS`: mecanismo defensivo local de threat hunting em Python.
-- `RAVEN`: motor de regras temporais e DSL Ruby para detecção de eventos.
+- ARES: infraestrutura, sockets, HTTP e baixo nível.
+- ARGUS: ingestão, normalização, correlação e inteligência.
+- RAVEN: regras declarativas, detecção temporal e alerta.
+- CERBERUS: camada futura de integração, orquestração e resposta.
 
-A ideia do repositório é demonstrar, em pequenas etapas, como construir uma
-pilha completa de ingestão, normalização, correlação, alerta e regras.
+A ideia não é apenas “três projetos em linguagens diferentes”, mas um pipeline
+funcional em que cada componente cumpre uma responsabilidade bem delimitada.
 
-## Estrutura do workspace
+## Estrutura de referência do workshop
+
+A organização abaixo representa o desenho desejado para o laboratório conforme o
+projeto cresce. A estrutura atual pode evoluir naturalmente, mas a arquitetura
+conceitual já está bem definida.
 
 ```text
-.
-├── Makefile
+The-Workshop/
 ├── README.md
-├── public/
-├── src/
-├── include/
-├── tests/
-├── build/
+├── Makefile
+│
+├── ares/
+│   ├── README.md
+│   ├── Makefile
+│   ├── src/
+│   ├── include/
+│   ├── public/
+│   ├── tests/
+│   └── build/
+│
 ├── argus/
 │   ├── README.md
 │   ├── config.yaml
@@ -31,6 +42,7 @@ pilha completa de ingestão, normalização, correlação, alerta e regras.
 │   ├── storage/
 │   ├── detection/
 │   └── tests/
+│
 ├── raven/
 │   ├── README.md
 │   ├── Gemfile
@@ -38,138 +50,196 @@ pilha completa de ingestão, normalização, correlação, alerta e regras.
 │   ├── lib/
 │   ├── rules/
 │   └── samples/
-└── README.md
+│
+├── cerberus/
+│   └── README.md
+│
+├── docs/
+│   └── architecture/
+│
+└── tests/
+    └── integration/
 ```
 
-## 1) ARES
+## Orquestração pelo Makefile raiz
 
-ARES é um servidor HTTP/1.1 didático em C, sem framework, com parsing manual de
-requisições e resposta de arquivos estáticos em `public/`.
+O `Makefile` da raiz deve funcionar como orquestrador do workshop, reunindo todos
+os runtimes em uma mesma rotina de verificação.
 
-### Compilar e executar
+```make
+ares:
+	$(MAKE) -C ares
+
+test-ares:
+	$(MAKE) -C ares test
+
+test-argus:
+	python -m unittest discover -s argus/tests -v
+
+test-raven:
+	cd raven && bundle exec rspec
+
+test: test-ares test-argus test-raven
+```
+
+A experiência desejada é simples:
 
 ```sh
-make
 make test
-make run
 ```
 
-O servidor escuta em `127.0.0.1:8080`.
+E aí o laboratório só é considerado saudável se C, Python e Ruby passarem juntos.
 
-```sh
-curl -i http://localhost:8080/
+## Architecture
+
+A arquitetura do workshop já deixa claro que o sistema não é apenas “três
+programas independentes”. Ele é um pipeline de eventos com responsabilidades bem
+separadas.
+
+```text
+                 THE WORKSHOP
+
+                     EVENT
+                       │
+              ┌────────▼────────┐
+              │      ARES       │
+              │        C        │
+              │ HTTP / Systems  │
+              └────────┬────────┘
+                       │
+                    JSONL
+                       │
+              ┌────────▼────────┐
+              │      ARGUS      │
+              │     Python      │
+              │ Correlation /   │
+              │ Risk Analysis   │
+              └────────┬────────┘
+                       │
+                Normalized Event
+                       │
+              ┌────────▼────────┐
+              │      RAVEN      │
+              │      Ruby       │
+              │ Temporal Rules  │
+              └────────┬────────┘
+                       │
+                     ALERT
+                       │
+                       ▼
+              ┌─────────────────┐
+              │    CERBERUS     │
+              │  Integration    │
+              └─────────────────┘
 ```
 
-Para limpar os artefatos gerados:
+## Componentes
 
-```sh
-make clean
+### ARES
+
+ARES é a camada de infraestrutura e baixo nível. Ele produz eventos de sistema e
+HTTP, valida entrada e limita o alcance da superfície de ataque.
+
+Decisões que já dão substância ao componente:
+
+- parsing de requisições HTTP/1.1;
+- exigência de `Host` em HTTP/1.1;
+- limite de cabeçalho em 16 KiB;
+- rejeição de requisições malformadas;
+- proteção contra traversal e symlinks;
+- limitação de tamanho do arquivo servido;
+- mapeamento de `/` para `public/index.html`.
+
+### ARGUS
+
+ARGUS é a camada de ingestão, correlação e inteligência. Ele entende eventos,
+normaliza fontes heterogêneas e calcula risco conforme padrões de comportamento.
+
+Decisões já incorporadas:
+
+- persistência em SQLite;
+- correlação por IP e janela temporal;
+- agregação de risco e eventos por contexto;
+- regras determinísticas e lógica de incident detection;
+- arquitetura pronta para evoluir para um motor de anomalias e score mais rico.
+
+### RAVEN
+
+RAVEN é a camada declarativa. Ele traduz regra temporal em lógica legível,
+utilizando janelas de tempo, agrupamento por chave e avaliação de eventos.
+
+Decisões já incorporadas:
+
+- `group_by` para separação de fluxos temporais;
+- `threshold` e `within` para regras de detecção;
+- avaliação por janela de tempo;
+- DSL expressiva para detectar atividade repetitiva ou suspeita.
+
+### CERBERUS
+
+CERBERUS representa a etapa futura de integração e resposta. Ele será o ponto em
+que alertas gerados pelo pipeline podem ser consumidos por mecanismos de
+orquestração, enriquecimento, ação e observabilidade.
+
+O nome funciona como o “coração do sistema” que conecta detecção à execução.
+
+## Event Schema v1
+
+A partir do momento em que o pipeline ganha um protocolo compartilhado, os três
+runtimes deixam de ser apenas projetos independentes e passam a formar uma
+arquitetura coerente.
+
+O esquema abaixo é a base do contrato interno do workshop:
+
+```json
+{
+  "schema": "workshop.event.v1",
+  "timestamp": "2026-10-02T13:37:00Z",
+  "source": "ares",
+  "event": "http_request",
+  "src_ip": "127.0.0.1",
+  "attributes": {
+    "method": "GET",
+    "path": "/",
+    "status": 200
+  }
+}
 ```
 
-### Comportamento atual
+Esse contrato é importante porque:
 
-- Parsing da linha de requisição e dos headers, exigindo `Host` em HTTP/1.1.
-- Limite do cabeçalho em 16 KiB.
-- Rejeição de requisições malformadas.
-- Suporte a `GET`; demais métodos retornam `405 Method Not Allowed`.
-- Mapeamento de `/` para `public/index.html`.
-- Inferência de tipos MIME comuns.
-- Proteção contra `..`, symlinks e acesso fora de `public/`.
-- Limite de 16 MiB por arquivo servido.
+- ARES produz eventos com estrutura estável;
+- ARGUS entende, enriquece e normaliza esses dados;
+- RAVEN avalia regras sobre esse mesmo payload;
+- CERBERUS, no futuro, pode consumir esse mesmo formato para resposta e automação.
 
-## 2) ARGUS
+## Fluxo de valor do workshop
 
-ARGUS é um mecanismo defensivo local de threat hunting em Python. Ele normaliza
-logs, aplica regras determinísticas, correlaciona eventos por IP, calcula risco
-acumulado e persiste eventos e alertas em SQLite.
+1. ARES observa e gera eventos de infraestrutura e HTTP.
+2. ARGUS ingere e correlaciona esses eventos em contexto.
+3. RAVEN avalia regras temporais sobre os eventos normalizados.
+4. CERBERUS integra alertas e decisões em um plano maior de resposta.
 
-### Configurar e executar
-
-```sh
-python -m pip install -r argus/requirements.txt
-python -m argus.main analyze argus/samples/ssh_bruteforce.jsonl
-python -m argus.main timeline --src-ip 192.168.1.50
-python -m argus.main serve
-```
-
-A API fica restrita a `127.0.0.1:8765` por padrão.
-
-- `GET /health`
-- `GET /alerts?limit=100`
-- `GET /timeline?src_ip=192.168.1.50&limit=500`
-
-O banco `argus.db` é criado no diretório do projeto.
-
-### Deteções iniciais
-
-- Falha de autenticação isolada não gera alerta.
-- 15 falhas do mesmo IP em 30 segundos geram brute force.
-- Login bem-sucedido após o limiar aumenta o risco acumulado.
-- Mesmo IP observado em outra fonte adiciona correlação.
-- Regras em YAML podem identificar eventos específicos, como autenticação bem-sucedida para `root`.
-
-### Testes
-
-```sh
-python -m unittest discover -s argus/tests -v
-```
-
-## 3) RAVEN
-
-RAVEN é um Ruby DSL e motor temporal para detecção defensiva. As regras são
-blocos Ruby em vez de predicados YAML; o parser avalia cada arquivo em um
-contexto DSL pequeno, agrupa eventos e aplica janelas temporais.
-
-### Setup
-
-```sh
-cd raven
-bundle install
-bundle exec rspec
-```
-
-### Executar regras sobre JSONL
-
-```sh
-bin/raven --rules rules --input samples/auth.jsonl
-cat events.jsonl | bin/raven --rules rules
-```
-
-Cada alerta é emitido como um JSON em stdout. Linhas JSONL inválidas são
-reportadas em stderr e ignoradas.
-
-### Exemplo de DSL
-
-```ruby
-rule "SSH Bruteforce" do
-  description "Repeated SSH authentication failures from one source IP"
-
-  where event: "authentication", result: "failed"
-  match do |event|
-    event["service"] == "ssh" || event.fetch("message", "").match?(/\bsshd\b/i)
-  end
-
-  group_by :src_ip
-  threshold 10
-  within 60.seconds
-  severity :high
-
-  on_match do |context|
-    alert context
-  end
-end
-```
-
-## Fluxo sugerido
-
-1. Compile e rode o servidor `ARES` para entender a base HTTP.
-2. Rode o pipeline de normalização e correlação em `ARGUS`.
-3. Use `RAVEN` para aplicar regras temporais sobre eventos normalizados.
-4. Combine os três elementos para uma visão completa de detecção e resposta.
+Em outras palavras, o workshop deixa de ser um conjunto de mini projetos e se
+transforma em um protocolo interno entre runtimes.
 
 ## Próximos passos
 
-- manter o servidor `ARES` com suporte a conexões persistentes;
-- evoluir a camada de detecção em `ARGUS`;
-- expandir a base de regras em `RAVEN`;
-- adicionar benchmarking e testes de integração no conjunto do workshop.
+- reorganizar a estrutura física para separar `ares`, `argus` e `raven` em
+  módulos independentes;
+- consolidar o `Event Schema v1` como contrato compartilhado;
+- manter `make test` como a verificação central do laboratório;
+- evoluir `CERBERUS` como camada de integração e resposta;
+- expandir testes de integração para garantir que C, Python e Ruby trabalhem
+  contra o mesmo contrato de eventos.
+
+## Estado atual
+
+O laboratório já tem substância suficiente para ser tratado como projeto de
+engenharia, e não apenas como coleção de experimentos isolados. O que está em
+jogo agora é a maturidade do pipeline: padronizar a troca de eventos, dar
+consistência à arquitetura e transformar cada runtime em peça de um sistema
+coeso.
+
+Esse é o ponto em que o workshop deixa de ser “três projetos simultâneos” e se
+transforma em uma plataforma de detecção e resposta de eventos.
