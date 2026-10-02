@@ -1,0 +1,1 @@
+"""WOLF local investigation core."""
