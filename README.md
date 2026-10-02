@@ -1,245 +1,324 @@
+# 🐺 The Workshop
 
-# The Workshop
+> **Build. Break. Understand. Rebuild.**
 
-Este workspace está sendo estruturado como um laboratório de engenharia de
-segurança e observabilidade, com três camadas bem definidas e um contrato de
-integração claro entre elas.
+**The Workshop** é meu laboratório pessoal de pesquisa, desenvolvimento e experimentação.
 
-- ARES: infraestrutura, sockets, HTTP e baixo nível.
-- ARGUS: ingestão, normalização, correlação e inteligência.
-- RAVEN: regras declarativas, detecção temporal e alerta.
-- CERBERUS: camada futura de integração, orquestração e resposta.
+Este repositório reúne projetos, estudos, ferramentas, provas de conceito e experimentos construídos ao longo do tempo em áreas como engenharia de software, cybersecurity, programação de baixo nível, redes, criptografia, automação, inteligência artificial, matemática aplicada e computação.
 
-A ideia não é apenas “três projetos em linguagens diferentes”, mas um pipeline
-funcional em que cada componente cumpre uma responsabilidade bem delimitada.
+Não existe uma única stack.
 
-## Estrutura de referência do workshop
+Não existe um único produto.
 
-A organização abaixo representa o desenho desejado para o laboratório conforme o
-projeto cresce. A estrutura atual pode evoluir naturalmente, mas a arquitetura
-conceitual já está bem definida.
+Existe uma bancada.
 
-```text
-The-Workshop/
-├── README.md
-├── Makefile
-│
-├── ares/
-│   ├── README.md
-│   ├── Makefile
-│   ├── src/
-│   ├── include/
-│   ├── public/
-│   ├── tests/
-│   └── build/
-│
-├── argus/
-│   ├── README.md
-│   ├── config.yaml
-│   ├── requirements.txt
-│   ├── samples/
-│   ├── rules/
-│   ├── storage/
-│   ├── detection/
-│   └── tests/
-│
-├── raven/
-│   ├── README.md
-│   ├── Gemfile
-│   ├── bin/
-│   ├── lib/
-│   ├── rules/
-│   └── samples/
-│
-├── cerberus/
-│   └── README.md
-│
-├── docs/
-│   └── architecture/
-│
-└── tests/
-    └── integration/
-```
+A ideia é simples: transformar estudo em experimento, experimento em código e código em conhecimento reutilizável.
 
-## Orquestração pelo Makefile raiz
+---
 
-O `Makefile` da raiz deve funcionar como orquestrador do workshop, reunindo todos
-os runtimes em uma mesma rotina de verificação.
+## ⚙️ Filosofia
 
-```make
-ares:
-	$(MAKE) -C ares
+Nem tudo aqui nasceu para se tornar um produto completo.
 
-test-ares:
-	$(MAKE) -C ares test
+Alguns projetos são ferramentas.
 
-test-argus:
-	python -m unittest discover -s argus/tests -v
+Outros são estudos de arquitetura.
 
-test-raven:
-	cd raven && bundle exec rspec
+Alguns existem para explorar uma linguagem, algoritmo, protocolo ou conceito.
 
-test: test-ares test-argus test-raven
-```
+Outros provavelmente crescerão muito além da ideia original.
 
-A experiência desejada é simples:
-
-```sh
-make test
-```
-
-E aí o laboratório só é considerado saudável se C, Python e Ruby passarem juntos.
-
-## Architecture
-
-A arquitetura do workshop já deixa claro que o sistema não é apenas “três
-programas independentes”. Ele é um pipeline de eventos com responsabilidades bem
-separadas.
+O objetivo é manter um registro prático da evolução técnica:
 
 ```text
-                 THE WORKSHOP
-
-                     EVENT
-                       │
-              ┌────────▼────────┐
-              │      ARES       │
-              │        C        │
-              │ HTTP / Systems  │
-              └────────┬────────┘
-                       │
-                    JSONL
-                       │
-              ┌────────▼────────┐
-              │      ARGUS      │
-              │     Python      │
-              │ Correlation /   │
-              │ Risk Analysis   │
-              └────────┬────────┘
-                       │
-                Normalized Event
-                       │
-              ┌────────▼────────┐
-              │      RAVEN      │
-              │      Ruby       │
-              │ Temporal Rules  │
-              └────────┬────────┘
-                       │
-                     ALERT
-                       │
-                       ▼
-              ┌─────────────────┐
-              │    CERBERUS     │
-              │  Integration    │
-              └─────────────────┘
+IDEA
+  │
+  ▼
+RESEARCH
+  │
+  ▼
+PROTOTYPE
+  │
+  ▼
+BUILD
+  │
+  ▼
+BREAK
+  │
+  ▼
+UNDERSTAND
+  │
+  ▼
+REBUILD
 ```
 
-## Componentes
+---
 
-### ARES
+# 🔬 Areas of Research
 
-ARES é a camada de infraestrutura e baixo nível. Ele produz eventos de sistema e
-HTTP, valida entrada e limita o alcance da superfície de ataque.
+O Workshop não está limitado a uma tecnologia ou domínio específico.
 
-Decisões que já dão substância ao componente:
+### Systems Engineering
 
-- parsing de requisições HTTP/1.1;
-- exigência de `Host` em HTTP/1.1;
-- limite de cabeçalho em 16 KiB;
-- rejeição de requisições malformadas;
-- proteção contra traversal e symlinks;
-- limitação de tamanho do arquivo servido;
-- mapeamento de `/` para `public/index.html`.
+- C / C++
+- programação de baixo nível
+- gerenciamento de memória
+- sockets
+- protocolos
+- concorrência
+- arquitetura de sistemas
 
-### ARGUS
+### Cybersecurity
 
-ARGUS é a camada de ingestão, correlação e inteligência. Ele entende eventos,
-normaliza fontes heterogêneas e calcula risco conforme padrões de comportamento.
+- network security
+- threat hunting
+- detection engineering
+- application security
+- malware analysis
+- reverse engineering
+- security research
+- observabilidade
 
-Decisões já incorporadas:
+### Cryptography
 
-- persistência em SQLite;
-- correlação por IP e janela temporal;
-- agregação de risco e eventos por contexto;
-- regras determinísticas e lógica de incident detection;
-- arquitetura pronta para evoluir para um motor de anomalias e score mais rico.
+- criptografia aplicada
+- implementação de primitivas
+- protocolos criptográficos
+- análise experimental
+- estudos acadêmicos
 
-### RAVEN
+### Mathematics & Computational Research
 
-RAVEN é a camada declarativa. Ele traduz regra temporal em lógica legível,
-utilizando janelas de tempo, agrupamento por chave e avaliação de eventos.
+- métodos estocásticos
+- processos aleatórios
+- Monte Carlo
+- cadeias de Markov
+- inferência Bayesiana
+- probabilidade
+- estatística
+- modelagem computacional
 
-Decisões já incorporadas:
+### Artificial Intelligence
 
-- `group_by` para separação de fluxos temporais;
-- `threshold` e `within` para regras de detecção;
-- avaliação por janela de tempo;
-- DSL expressiva para detectar atividade repetitiva ou suspeita.
+- machine learning
+- detecção de anomalias
+- análise comportamental
+- LLM security
+- automação inteligente
+- experimentação com modelos
 
-### CERBERUS
+### Networking
 
-CERBERUS representa a etapa futura de integração e resposta. Ele será o ponto em
-que alertas gerados pelo pipeline podem ser consumidos por mecanismos de
-orquestração, enriquecimento, ação e observabilidade.
+- TCP/IP
+- análise de protocolos
+- packet processing
+- network monitoring
+- sistemas distribuídos
 
-O nome funciona como o “coração do sistema” que conecta detecção à execução.
+### Hardware & Embedded
 
-## Event Schema v1
+- Arduino
+- sensores
+- sistemas embarcados
+- comunicação hardware/software
+- experimentação eletrônica
 
-A partir do momento em que o pipeline ganha um protocolo compartilhado, os três
-runtimes deixam de ser apenas projetos independentes e passam a formar uma
-arquitetura coerente.
+### Automation & Web
 
-O esquema abaixo é a base do contrato interno do workshop:
+- Python
+- Ruby
+- JavaScript
+- APIs
+- WebApps
+- ferramentas internas
+- automação de workflows
 
-```json
-{
-  "schema": "workshop.event.v1",
-  "timestamp": "2026-10-02T13:37:00Z",
-  "source": "ares",
-  "event": "http_request",
-  "src_ip": "127.0.0.1",
-  "attributes": {
-    "method": "GET",
-    "path": "/",
-    "status": 200
-  }
-}
+---
+
+# 🧪 Projects
+
+Alguns dos projetos e experimentos atualmente presentes no Workshop:
+
+## ARES
+
+Servidor HTTP/1.1 desenvolvido em **C** sobre sockets POSIX.
+
+Explora conceitos como:
+
+- sockets;
+- parsing HTTP;
+- gerenciamento de memória;
+- validação de entrada;
+- segurança de filesystem;
+- programação de sistemas.
+
+---
+
+## ARGUS
+
+Motor defensivo de **Threat Hunting e correlação de eventos em Python**.
+
+Explora:
+
+- normalização de eventos;
+- correlação temporal;
+- SQLite;
+- risk scoring;
+- detection engineering;
+- análise comportamental.
+
+---
+
+## RAVEN
+
+Motor de regras temporais e DSL desenvolvido em **Ruby**.
+
+Explora:
+
+- metaprogramação;
+- DSLs;
+- regras declarativas;
+- janelas temporais;
+- agrupamento de eventos;
+- detection engineering.
+
+---
+
+## WolfHunter
+
+Conjunto experimental de ferramentas e interfaces voltadas para análise, automação e pesquisa em segurança.
+
+O projeto evolui conforme novas necessidades aparecem dentro do laboratório.
+
+---
+
+## Ouroboros
+
+Área experimental dedicada a estudos, protótipos e pesquisas que não necessariamente pertencem a um único domínio do Workshop.
+
+---
+
+# 📚 Research
+
+Além dos projetos de software, o Workshop também funciona como repositório para estudos técnicos e experimentação científica.
+
+A intenção é que pesquisas sejam acompanhadas, sempre que possível, por implementações reproduzíveis.
+
+Exemplo:
+
+```text
+research/
+│
+├── stochastic-methods/
+│   ├── monte-carlo/
+│   ├── markov-chains/
+│   ├── random-walks/
+│   ├── poisson-process/
+│   └── bayesian-inference/
+│
+├── cryptography/
+├── network-science/
+├── artificial-intelligence/
+└── security-research/
 ```
 
-Esse contrato é importante porque:
+A filosofia é:
 
-- ARES produz eventos com estrutura estável;
-- ARGUS entende, enriquece e normaliza esses dados;
-- RAVEN avalia regras sobre esse mesmo payload;
-- CERBERUS, no futuro, pode consumir esse mesmo formato para resposta e automação.
+```text
+Theory → Implementation → Experiment → Observation
+```
 
-## Fluxo de valor do workshop
+---
 
-1. ARES observa e gera eventos de infraestrutura e HTTP.
-2. ARGUS ingere e correlaciona esses eventos em contexto.
-3. RAVEN avalia regras temporais sobre os eventos normalizados.
-4. CERBERUS integra alertas e decisões em um plano maior de resposta.
+# 🧰 Technology
 
-Em outras palavras, o workshop deixa de ser um conjunto de mini projetos e se
-transforma em um protocolo interno entre runtimes.
+A stack do Workshop é deliberadamente heterogênea.
 
-## Próximos passos
+Cada problema deve ser resolvido com a ferramenta adequada, e não adaptado artificialmente a uma linguagem específica.
 
-- reorganizar a estrutura física para separar `ares`, `argus` e `raven` em
-  módulos independentes;
-- consolidar o `Event Schema v1` como contrato compartilhado;
-- manter `make test` como a verificação central do laboratório;
-- evoluir `CERBERUS` como camada de integração e resposta;
-- expandir testes de integração para garantir que C, Python e Ruby trabalhem
-  contra o mesmo contrato de eventos.
+Atualmente podem aparecer por aqui:
 
-## Estado atual
+```text
+C
+C++
+Python
+Ruby
+JavaScript
+HTML / CSS
+Shell
+SQL
+Assembly
+Java
+Kotlin
+Arduino
+```
 
-O laboratório já tem substância suficiente para ser tratado como projeto de
-engenharia, e não apenas como coleção de experimentos isolados. O que está em
-jogo agora é a maturidade do pipeline: padronizar a troca de eventos, dar
-consistência à arquitetura e transformar cada runtime em peça de um sistema
-coeso.
+E essa lista provavelmente vai crescer.
 
-Esse é o ponto em que o workshop deixa de ser “três projetos simultâneos” e se
-transforma em uma plataforma de detecção e resposta de eventos.
+> **Use whatever the problem demands.**
+
+---
+
+# 🏗️ Repository Philosophy
+
+O Workshop funciona mais como um **monorepo de pesquisa pessoal** do que como uma aplicação tradicional.
+
+Por isso, diferentes diretórios podem possuir:
+
+- arquitetura própria;
+- dependências próprias;
+- documentação própria;
+- linguagens diferentes;
+- níveis diferentes de maturidade.
+
+Projetos maiores devem possuir seus próprios `README.md`.
+
+O README raiz descreve **a oficina**.
+
+Os READMEs internos descrevem **as máquinas construídas nela**.
+
+---
+
+# 🚧 Project Status
+
+Os projetos podem passar por diferentes estados:
+
+```text
+[ IDEA ]         conceito ou pesquisa inicial
+
+[ EXPERIMENT ]   prova de conceito
+
+[ BUILDING ]     desenvolvimento ativo
+
+[ STABLE ]       implementação funcional
+
+[ ARCHIVED ]     estudo preservado, sem desenvolvimento ativo
+```
+
+Nem todo experimento precisa chegar a `STABLE`.
+
+Fracassos também produzem conhecimento.
+
+---
+
+# 🐺 The Workshop
+
+Este repositório não pretende representar uma stack específica.
+
+Ele representa um processo.
+
+Um lugar para experimentar linguagens, sistemas, matemática, segurança e ideias sem exigir que cada tentativa se transforme em produto.
+
+Algumas coisas vão funcionar.
+
+Algumas vão quebrar.
+
+Algumas serão abandonadas.
+
+E algumas provavelmente vão crescer muito além do planejado.
+
+**That's what workshops are for.**
+
+---
+
+`Build. Break. Understand. Rebuild.`
